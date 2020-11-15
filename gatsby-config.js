@@ -1,4 +1,5 @@
 module.exports = {
+    pathPrefix: '/web_g_i',
     plugins: [
         `gatsby-plugin-sass`,
         `gatsby-plugin-react-helmet`,
