@@ -1,24 +1,25 @@
-import React from "react";
+import React from 'react'
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
-import { getDisplayName } from "../utils";
+import { getDisplayName } from '../utils'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/common.sass'
 
-import "../styles/common.sass";
-
-const withLayout = Component => {
-    const WrapperComponent = props => {
+const withLayout = (Component) => {
+    const WrapperComponent = (props) => {
+        console.log(props)
         return (
             <React.Fragment>
                 <Header />
                 <Component {...props} />
                 <Footer />
             </React.Fragment>
-        );
-    };
-    WrapperComponent.displayName = `Layout(${getDisplayName(Component)})`;
-    return WrapperComponent;
-};
+        )
+    }
+    WrapperComponent.displayName = `Layout(${getDisplayName(Component)})`
+    return WrapperComponent
+}
 
-export default withLayout;
+export default withLayout

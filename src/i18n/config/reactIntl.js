@@ -1,5 +1,6 @@
-import { addLocaleData } from "react-intl";
-import csData from "react-intl/locale-data/cs";
-import enData from "react-intl/locale-data/en";
+import { addLocaleData } from 'react-intl'
+import esData from 'react-intl/locale-data/es'
+import enData from 'react-intl/locale-data/en'
+import ptData from 'react-intl/locale-data/pt'
 
-addLocaleData([...csData, ...enData]);
+addLocaleData([...esData, ...enData, ...ptData])

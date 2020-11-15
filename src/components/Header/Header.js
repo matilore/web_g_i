@@ -1,35 +1,79 @@
-import React from "react";
-import { FormattedMessage } from "react-intl";
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
+import { Navbar, Nav } from 'react-bootstrap'
+import { injectIntl } from 'react-intl'
+import { NavDropdown } from './styled-components'
 
-import Link from "../LocalizedLink";
-import LanguageSwitcher from "../LanguageSwitcher";
+import Link from '../LocalizedLink'
+import LanguageSwitcher from '../LanguageSwitcher'
 
-import "./Header.sass";
+const Header = ({ intl }) => (
+    <Navbar className="justify-content-end" bg="light" expand="lg">
+        <Navbar.Brand href="#home">Gummi</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto">
+                <NavDropdown
+                    title={intl.formatMessage({
+                        id: 'navbar.products',
+                    })}
+                >
+                    <NavDropdown.Item href="#action/3.1">
+                        Action
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">
+                        Another action
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">
+                        Something
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action/3.4">
+                        Separated link
+                    </NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown
+                    title={intl.formatMessage({
+                        id: 'navbar.aboutus',
+                    })}
+                >
+                    <NavDropdown.Item href="#action/3.1">
+                        Action
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">
+                        Another action
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">
+                        Something
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action/3.4">
+                        Separated link
+                    </NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown
+                    title={intl.formatMessage({
+                        id: 'navbar.company',
+                    })}
+                >
+                    <NavDropdown.Item href="#action/3.1">
+                        Action
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">
+                        Another action
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">
+                        Something
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action/3.4">
+                        Separated link
+                    </NavDropdown.Item>
+                </NavDropdown>
+            </Nav>
+        </Navbar.Collapse>
+        <LanguageSwitcher />
+    </Navbar>
+)
 
-const Header = () => (
-    <header className="Header">
-        <img
-            className="Logo"
-            alt="Gatsby"
-            src="https://www.gatsbyjs.org/monogram.svg"
-            width="60"
-        />
-        <nav>
-            <Link to="/">
-                <FormattedMessage id="home.title" />
-            </Link>
-            <Link to="/page1">
-                <FormattedMessage id="page1.title" />
-            </Link>
-            <Link to="/subpage/page1">
-                <FormattedMessage id="subpage.page1.title" />
-            </Link>
-            <Link to="/subpage/subsubpage/page1">
-                <FormattedMessage id="subpage.subsubpage.page1.title" />
-            </Link>
-            <LanguageSwitcher />
-        </nav>
-    </header>
-);
-
-export default Header;
+export default injectIntl(Header)

@@ -1,25 +1,26 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react'
+import { Link } from 'gatsby'
 
-import cs from "../../images/cs.png";
-import en from "../../images/en.png";
+import es from '../../images/es.svg'
+import en from '../../images/en.svg'
+import pt from '../../images/pt.svg'
 
-import { languages, getLocalizedPath } from "../../i18n";
+import { languages, getLocalizedPath } from '../../i18n'
 
-import { PageContext } from "../../pageContext";
-
-import "./LanguageSwitcher.sass";
+import { PageContext } from '../../pageContext'
+import { LanguageSwitcherWrapper } from './styled-components'
 
 const flags = {
-    cs,
-    en
-};
+    es,
+    en,
+    pt,
+}
 
 const LanguageSwitcher = () => (
     <PageContext.Consumer>
         {({ originalPath, locale }) => (
-            <div className="LanguageSwitcher">
-                {languages.map(lang =>
+            <LanguageSwitcherWrapper>
+                {languages.map((lang) =>
                     lang.locale === locale ? (
                         <img
                             key={lang.locale}
@@ -35,9 +36,9 @@ const LanguageSwitcher = () => (
                         </Link>
                     )
                 )}
-            </div>
+            </LanguageSwitcherWrapper>
         )}
     </PageContext.Consumer>
-);
+)
 
-export default LanguageSwitcher;
+export default LanguageSwitcher

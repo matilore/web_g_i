@@ -1,4 +1,5 @@
-import en from './en.yml';
-import cs from './cs.yml';
+import en from './en.yml'
+import es from './es.yml'
+import pt from './pt.yml'
 
-export default { cs, en };
+export default { es, en, pt }
