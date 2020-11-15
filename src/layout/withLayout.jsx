@@ -9,7 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const withLayout = (Component) => {
     const WrapperComponent = (props) => {
-        console.log(props)
         return (
             <React.Fragment>
                 <Header />

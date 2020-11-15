@@ -13,6 +13,8 @@ import Slider5 from '../../images/slider_5.jpg'
 import Slider6 from '../../images/slider_6.jpg'
 import Slider7 from '../../images/slider_7.jpg'
 
+import { SwiperWrapper, SlideWrapper } from './styled-components'
+
 const SLIDES = [Slider1, Slider2, Slider3, Slider4, Slider5, Slider6, Slider7]
 
 SwiperCore.use([Navigation, Pagination])
@@ -21,21 +23,25 @@ export default () => {
     const renderSlides = () =>
         SLIDES.map((slide) => (
             <SwiperSlide>
-                <img src={slide} />
+                <SlideWrapper>
+                    <img src={slide} />
+                </SlideWrapper>
             </SwiperSlide>
         ))
 
     return (
-        <Swiper
-            navigation
-            pagination={{ clickable: true }}
-            spaceBetween={50}
-            loop
-            slidesPerView={1}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-        >
-            {renderSlides()}
-        </Swiper>
+        <SwiperWrapper>
+            <Swiper
+                navigation
+                pagination={{ clickable: true }}
+                spaceBetween={50}
+                loop
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+            >
+                {renderSlides()}
+            </Swiper>
+        </SwiperWrapper>
     )
 }
