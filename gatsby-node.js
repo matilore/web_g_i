@@ -4,9 +4,9 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-import { languages, getLocalizedPath } from './src/i18n'
+const { languages, getLocalizedPath } = require('./src/i18n')
 
-export function onCreatePage({ page, actions }) {
+exports.onCreatePage = ({ page, actions }) => {
     const { createPage, deletePage } = actions
 
     if (page.internalComponentName === 'ComponentDev404Page') {
