@@ -15,12 +15,12 @@ export const SwiperWrapper = styled.div`
 
 export const SlideWrapper = styled.div`
     overflow: hidden;
-    height: 145%;
-    width: 145%;
+    height: 120%;
+    width: 120%;
 
     img {
         width: 120%;
         height: 120%;
-        margin: -2.5% 0 0 -16%;
+        margin: -2.5% 0 0 -10%;
     }
 `
