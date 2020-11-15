@@ -21,7 +21,8 @@
         "react-dom": "^16.8.4",
         "react-helmet": "^5.2.1",
         "react-intl": "^2.8.0",
-        "recompose": "^0.30.0"
+        "recompose": "^0.30.0",
+        "swiper": "^6.3.5"
     },
     "keywords": [
         "gatsby",

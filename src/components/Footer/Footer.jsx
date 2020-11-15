@@ -1,10 +1,6 @@
-import React from "react";
-import { FormattedHTMLMessage } from "react-intl";
+import React from 'react'
+import { FormattedHTMLMessage } from 'react-intl'
 
-const Footer = () => (
-    <footer>
-        <FormattedHTMLMessage id="footer.title" />
-    </footer>
-);
+const Footer = () => <footer></footer>
 
-export default Footer;
+export default Footer

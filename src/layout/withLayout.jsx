@@ -2,10 +2,10 @@ import React from 'react'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import GlobalStyle from '../styles/global-style'
 
 import { getDisplayName } from '../utils'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../styles/common.sass'
 
 const withLayout = (Component) => {
     const WrapperComponent = (props) => {
@@ -15,6 +15,7 @@ const withLayout = (Component) => {
                 <Header />
                 <Component {...props} />
                 <Footer />
+                <GlobalStyle />
             </React.Fragment>
         )
     }
