@@ -11,11 +11,10 @@ import Slider3 from '../../images/slider_3.jpg'
 import Slider4 from '../../images/slider_4.jpg'
 import Slider5 from '../../images/slider_5.jpg'
 import Slider6 from '../../images/slider_6.jpg'
-import Slider7 from '../../images/slider_7.jpg'
 
 import { SwiperWrapper, SlideWrapper } from './styled-components'
 
-const SLIDES = [Slider1, Slider2, Slider3, Slider4, Slider5, Slider6, Slider7]
+const SLIDES = [Slider1, Slider2, Slider3, Slider4, Slider5, Slider6]
 
 SwiperCore.use([Navigation, Pagination])
 

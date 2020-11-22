@@ -4,7 +4,6 @@ import { Navbar, Nav } from 'react-bootstrap'
 import { injectIntl } from 'react-intl'
 import { NavDropdown } from './styled-components'
 
-import Link from '../LocalizedLink'
 import LanguageSwitcher from '../LanguageSwitcher'
 
 const Header = ({ intl }) => (
@@ -53,7 +52,7 @@ const Header = ({ intl }) => (
                 </NavDropdown>
                 <NavDropdown
                     title={intl.formatMessage({
-                        id: 'navbar.company',
+                        id: 'navbar.contact',
                     })}
                 >
                     <NavDropdown.Item href="#action/3.1">
