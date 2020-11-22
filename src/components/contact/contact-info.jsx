@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import Email from '../../images/email.svg'
-import Phone from '../../images/phone.svg'
-import Location from '../../images/location.svg'
+import Email from '../../images/email-icon.svg'
+import Phone from '../../images/phone-icon.svg'
+import Location from '../../images/location-icon.svg'
 
 import { Text2, Icon, Button } from '../../styles/shared'
 
