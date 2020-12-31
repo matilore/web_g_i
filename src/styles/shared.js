@@ -1,10 +1,26 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const TitleH4 = styled.h4`
     text-tranform: uppercase;
     width: 28vw;
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: ${({ color }) => (color ? color : 'inherit')};
+`
+
+export const TitleH6 = styled.h6`
+    text-tranform: uppercase;
+    width: 25vw;
+    font-size: 1.6vw;
+    color: ${({ color }) => (color ? color : 'inherit')};
+`
+
+export const Spacer = styled.div`
+    ${({ top, right, bottom, left }) => css`
+        margin-top: ${top ? top * 8 : 0}px;
+        margin-right: ${right ? right * 8 : 0}px;
+        margin-bottom: ${bottom ? bottom * 8 : 0}px;
+        margin-left: ${left ? left * 8 : 0}px;
+    `}
 `
 
 export const Text1 = styled.p``
@@ -22,12 +38,16 @@ export const ProductCard = styled.div`
     align-items: center;
     padding: 24px 40px;
     box-sizing: border-box;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     cursor: pointer;
 
     &:hover {
         transform: scale(1.04);
+    }
+
+    h4 {
+        padding-bottom: 16px;
+        border-bottom: 2px solid darkGrey;
     }
 `
 

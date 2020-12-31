@@ -7,8 +7,10 @@ export const FooterSection = styled.div`
 `
 
 export const FooterWrapper = styled.footer`
+    margin-top: 64px;
     width: 100%;
-    height: 250px;
+    height: 150px;
     display: flex;
     padding: 32px;
+    background-color: lightGrey;
 `

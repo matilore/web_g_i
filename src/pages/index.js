@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { injectIntl, intlShape, FormattedHTMLMessage } from 'react-intl'
+import { injectIntl, intlShape } from 'react-intl'
 import { compose } from 'recompose'
 import { Container, Row, Col } from 'react-bootstrap'
 

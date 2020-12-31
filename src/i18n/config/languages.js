@@ -5,6 +5,7 @@ module.exports = [
         label: 'Español',
         routes: {
             '/': '/',
+            '/contact': '/contact',
             '/page1': '/stranka1',
             '/subpage/page1': '/podstranka/stranka1',
             '/subpage/subsubpage/page1': '/podstranka/podpodstranka/stranka1',
@@ -15,6 +16,7 @@ module.exports = [
         label: 'English',
         routes: {
             '/': '/',
+            '/contact': '/contact',
             '/page1': '/page1',
             '/subpage/page1': '/subpage/page1',
             '/subpage/subsubpage/page1': '/subpage/subsubpage/page1',
@@ -25,6 +27,7 @@ module.exports = [
         label: 'Português',
         routes: {
             '/': '/',
+            '/contact': '/contact',
             '/page1': '/page1',
             '/subpage/page1': '/subpage/page1',
             '/subpage/subsubpage/page1': '/subpage/subsubpage/page1',
