@@ -4,6 +4,7 @@
     "version": "0.0.1",
     "author": "Marek Janča <marek-janca@volny.cz>",
     "dependencies": {
+        "axios": "^0.21.1",
         "bootstrap": "^4.5.3",
         "gatsby": "^2.26.1",
         "gatsby-image": "^2.0.31",

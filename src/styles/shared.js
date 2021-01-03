@@ -72,4 +72,8 @@ export const Button = styled.button`
     font-size: 0.75rem;
     font-weight: bold;
     width: 100%;
+
+    &:disabled {
+        opacity: 0.5;
+    }
 `
