@@ -56,13 +56,13 @@ const Footer = ({ intl }) => (
             </TitleH6>
             <Link1 href="/acoplamientos">
                 {intl.formatMessage({
-                    id: 'products.acoplamientos',
+                    id: 'products.industrialCouplings',
                 })}
             </Link1>
 
             <Link1 href="/embragues">
                 {intl.formatMessage({
-                    id: 'products.embragues_frenos',
+                    id: 'products.pneumaticBrake',
                 })}
             </Link1>
         </FooterSection>

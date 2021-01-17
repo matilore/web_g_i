@@ -9,6 +9,7 @@ import {
 
 const Section = styled.div`
     display: flex;
+    flex-wrap: wrap;
     margin: 64px 0;
     width: 100%;
     justify-content: space-around;

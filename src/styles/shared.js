@@ -1,5 +1,11 @@
 import styled, { css } from 'styled-components'
 
+export const TitleH1 = styled.h1`
+    font-size: 45px;
+    color: #1565a8;
+    font-weight: 800;
+`
+
 export const TitleH4 = styled.h4`
     text-tranform: uppercase;
     width: 28vw;
@@ -76,4 +82,13 @@ export const Button = styled.button`
     &:disabled {
         opacity: 0.5;
     }
+`
+
+export const Ul = styled.ul`
+    display: flex;
+    flex-wrap: wrap;
+`
+
+export const Li = styled.li`
+    width: 50%;
 `
