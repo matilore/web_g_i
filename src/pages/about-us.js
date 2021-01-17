@@ -53,7 +53,7 @@ const AboutUs = ({ intl }) => {
                             })}
                         </Text1>
 
-                        <Spacer top={4}>
+                        <Spacer top={8}>
                             <Spacer bottom={3}>
                                 <TitleH4>
                                     {intl.formatMessage({
