@@ -6,33 +6,73 @@
 
 const { languages, getLocalizedPath } = require('./src/i18n')
 
+const COUPLINGS_PATHS = ['a', 'an', 'bz', 'ez', 'spiroflex', 'vnnd']
+const PNEUMATIC_BRAKS_PATHS = ['fk', 'fke', 'fkr', 'fkt', 'fm', 'rn']
+const PNEUMATIC_CAMERAS_PATHS = ['cn']
+
+const createProductsPages = (createPage) => {
+    const allProducts = [
+        { name: 'a', title: 'products.industrialCouplings' },
+        { name: 'b', title: 'products.pneumaticBrake' },
+        { name: 'c', title: 'products.pneumaticCameras' },
+    ]
+    // Create a page for each Pokémon.
+    allProducts.forEach((product) => {
+        languages.forEach((lang) => {
+            const localizedPath = getLocalizedPath(
+                `/products/${product.name}`,
+                lang.locale
+            )
+            createPage({
+                path: localizedPath,
+                component: require.resolve('./src/templates/product.js'),
+                context: {
+                    product,
+                    locale: lang.locale,
+                    originalPath: `/products/${product.name}`,
+                },
+            })
+
+            createProductDetailsPage(createPage, product.name)
+        })
+    })
+}
+
+const createProductDetailsPage = (createPage, productCategory) => {
+    const list = {
+        a: COUPLINGS_PATHS,
+        b: PNEUMATIC_BRAKS_PATHS,
+        c: PNEUMATIC_CAMERAS_PATHS,
+    }
+    const allProducts = list[productCategory]
+    // Create a page for each Pokémon.
+    allProducts.forEach((product) => {
+        languages.forEach((lang) => {
+            console.log('IN CONSOLE!', productCategory, product)
+            const localizedPath = getLocalizedPath(
+                `/products/${productCategory}/${product}`,
+                lang.locale
+            )
+            createPage({
+                path: localizedPath,
+                component: require.resolve(
+                    './src/templates/product-details.js'
+                ),
+                context: {
+                    product: { productCategory, name: product },
+                    locale: lang.locale,
+                    originalPath: `/products/${productCategory}/${product}`,
+                },
+            })
+        })
+    })
+}
+
 exports.createPages = ({ actions: { createPage } }) => {
     // `getPokemonData` is a function that fetches our data
 
     return new Promise((resolve) => {
-        const allProducts = [
-            { name: 'a', title: 'products.industrialCouplings' },
-            { name: 'b', title: 'products.pneumaticBrake' },
-            { name: 'c', title: 'products.pneumaticCameras' },
-        ]
-        // Create a page for each Pokémon.
-        allProducts.forEach((product) => {
-            languages.forEach((lang) => {
-                const localizedPath = getLocalizedPath(
-                    `/products/${product.name}`,
-                    lang.locale
-                )
-                createPage({
-                    path: localizedPath,
-                    component: require.resolve('./src/templates/product.js'),
-                    context: {
-                        product,
-                        locale: lang.locale,
-                        originalPath: `/products/${product.name}`,
-                    },
-                })
-            })
-        })
+        createProductsPages(createPage)
         resolve()
     })
 }

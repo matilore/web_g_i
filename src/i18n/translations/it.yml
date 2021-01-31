@@ -9,8 +9,70 @@ footer.address.content: 'Lorem ispsum'
 footer.contact.title: 'Contatto'
 footer.contact.tel: '+34 ...'
 footer.contact.email: 'mail@gmail.com'
+product.details.characteristcs: 'Caratteristica'
+product.details.power: 'Coppie'
+product.details.sizes: 'Dimensioni'
+product.details.useCases: 'Applicazioni'
 products.title: 'Prodotti'
 products.industrialCouplings: 'Giunti'
+products.industrialCouplings.line_a.name: 'Linea A'
+products.industrialCouplings.line_a.general: >
+    I giunti elastici GUMMI tipo A assorbono disallineamenti e vibrazioni. Il disallineamento rappresenta il 50% delle cause di rottura dei cuscinetti, così come altri elementi delle macchine (tenute, ingranaggi), che non sono predisposti per la flessione sollecitata sull'albero. Il giunto GUMMI, essendo elastico, assorbe i disallineamenti, aumentando la vita utile dei componenti.
+    Smorza le vibrazioni e gli urti, offrendo una vita utile più lunga sui componenti della trasmissione. La media delle vibrazioni che si trasmettono in un sistema, da un lato all'altro della applicazione è circa del 70%, aspetto minimizzato dalla capacità di assorbimento dell'elemento elastico.
+    I giunti GUMMI sono facili da installare; la sostituzione è più veloce perché si tratta di un singolo elemento. Permette  tolleranze di allineamento più elevate. Non ha nessuna necessità di spostare le parti per la sua sostituzione.
+products.industrialCouplings.line_a.description: >
+    Simmetria, sicurezza ed equilibrio: non presentando tagli nel centro elastico, è garantito un ottimale equilibrio e sicurezza per l'utilizzatore.
+products.industrialCouplings.line_a.power: '38 Nm. fino a 168.750 Nm.'
+products.industrialCouplings.line_a.sizes: >
+    Modello da A-20 a A-400. Oltre allo standard,  o con rivestimento sintetico (RE) -per ambienti aggressivi-. I mozzi possono essere: mozzo normale (CN); mozzo integrale (CI); mozzo assiale (CX); mozzo bobina (CC), mozzi incassati (CE)., con disco freno (DF), con puleggia freno (APF) e flangiato (CF).
+products.industrialCouplings.line_a.useCases: >
+    Per la loro versatilità vengono utilizzati in diversi settori: siderurgico, cartario, alimentare, petrolifero, petrolifero, navale, minerario, ecc.
+products.industrialCouplings.line_an.name: 'Linea AN'
+products.industrialCouplings.line_an.general: >
+    Il Giunto pneumatico  GUMMI AN è stato appositamente progettato per proteggere le trasmissioni e le macchine dagli effetti distruttivi delle fluttuazioni di coppia ad alto momento torsionale, associate a macchine a combustione interna, pompe alternative, compressori, mulini ecc.
+    Il giunto pneumatico GUMMI ha una prestazione eccezionale , grazie alla sua flessibilità e capacità di controllare le fluttuazioni di coppia elevate annullando le vibrazioni, con una caratteristica imbattibile: il grado di flessibilità può essere variato, «modificando la pressione di aria ”, poiché tra i valori di deflessione delle coppie variabili è presente un'ampia area di isteresi.
+products.industrialCouplings.line_an.description: >
+    Assorbe i disallineamenti, è semplice da installare, aiuta in modo significativo a ridurre il rumore di qualsiasi trasmissione e fornisce un eccellente isolamento elettrico. Funge da ammortizzatore, sfruttando la resistenza della sua camera in gomma; riduce le fluttuazioni torsionali, allo stesso modo la naturale isteresi del suo elemento flessibile aiuta a ridurre le vibrazioni.
+products.industrialCouplings.line_an.power:
+products.industrialCouplings.line_an.sizes: >
+    Sono disponibili 15 modelli e 13 combinazioni di montaggio realizzabili con un elemento standard, oltre al montaggio su volano, alberi intermedi.
+products.industrialCouplings.line_an.useCases: >
+products.industrialCouplings.line_br.name: 'Linea BR'
+products.industrialCouplings.line_br.general: >
+    Utilizzando materiali di ultima generazione, GUMMI ha sviluppato un giunto elastico per basse rotazioni con un design più compatto rispetto alla linea tradizionale -con dimensioni simili ai giunti rigidi e semirigidi-, mantenendo la sua capacità di assorbire disallineamenti, vibrazioni, fluttuazioni di coppia , proteggendo e aumentando la vita utile degli altri componenti di una trasmissione.
+products.industrialCouplings.line_br.description: >
+    Non necessita di lubrificazione minimizzando le azioni di manutenzione correttiva, preventiva e predittiva, sia nell'accoppiamento che nella trasmissione, riducendo fino a 5 volte i tempi di fermo macchina. Per la sostituzione dell’elemento elastico non è necessario spostare le parti.
+products.industrialCouplings.line_br.power: >
+    Possono lavorare con coppie comprese tra 4.000 Nm e 250.000 Nm
+products.industrialCouplings.line_br.sizes: >
+    I modelli vanno da BR-100 a BR-320
+products.industrialCouplings.line_br.useCases: >
+    Accoppiamento basso per nastri trasportatori, macinatori / mulini a sfere, pompe per liquami, elevatore a tazze, redler, ecc.
+products.industrialCouplings.line_ez.name: 'Linea EZ'
+products.industrialCouplings.line_ez.general: >
+    Gli elementi elastici GUMMI EZ sono realizzati in gomma naturale e fibre sintetiche, con rinforzo interno in acciaio.
+products.industrialCouplings.line_ez.description: >
+    Assorbono disallineamenti e vibrazioni, proteggendo gli organi di trasmissione.
+products.industrialCouplings.line_ez.power:
+products.industrialCouplings.line_ez.sizes: >
+    Sono forniti in 10 taglie e 30 diversi modelli, con le loro diverse configurazioni.
+products.industrialCouplings.line_ez.useCases: >
+    Gli elementi elastici GUMMI EZ sono utilizzati nell'industria navale e mineraria.
+products.industrialCouplings.spiroflex.name: 'Spiroflex'
+products.industrialCouplings.spiroflex.general: >
+    Gli elementi elastici GUMMI Spiroflex hanno un'elevata elasticità torsionale. Compensano i disallineamenti radiali, assiali e angolari degli alberi.
+products.industrialCouplings.spiroflex.description: >
+products.industrialCouplings.spiroflex.power:
+products.industrialCouplings.spiroflex.sizes: >
+    EJ 100 A EJ 530
+products.industrialCouplings.spiroflex.useCases: >
+    Sono utilizzati in applicazioni marine tra motore e cambio, generatori, ecc. È altamente raccomandato nei sistemi di propulsione.
+products.industrialCouplings.line_vnnd.name: 'Linea VNND'
+products.industrialCouplings.line_vnnd.general: ''
+products.industrialCouplings.line_vnnd.description: >
+products.industrialCouplings.line_vnnd.power:
+products.industrialCouplings.line_vnnd.sizes: >
+products.industrialCouplings.line_vnnd.useCases: >
 products.pneumaticBrake: 'Frizioni e Freni Pneumatici'
 products.pneumaticCameras: 'Camere Pneumatiche'
 aboutUs.story.title: 'La storia'

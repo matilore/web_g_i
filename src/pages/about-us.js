@@ -4,7 +4,7 @@ import withPageContext from '../pageContext'
 import { Container, Row, Col } from 'react-bootstrap'
 import withLayout from '../layout'
 import { compose } from 'recompose'
-import { TitleH4, Spacer, Text1, Li, Ul } from '../styles/shared'
+import { TitleH4, Spacer, Text1, Li, Ul, Separator } from '../styles/shared'
 
 const serialize = (formFields) => {
     return Object.entries(formFields).reduce((acc, [key, val], index) => {
@@ -35,7 +35,7 @@ const AboutUs = ({ intl }) => {
     }
 
     return (
-        <Spacer top={3}>
+        <Spacer top={6}>
             <Container>
                 <Row>
                     <Col lg={12}>
@@ -45,6 +45,7 @@ const AboutUs = ({ intl }) => {
                                     id: 'aboutUs.story.title',
                                 })}
                             </TitleH4>
+                            <Separator />
                         </Spacer>
 
                         <Text1>
@@ -60,6 +61,7 @@ const AboutUs = ({ intl }) => {
                                         id: 'aboutUs.industries.title',
                                     })}
                                 </TitleH4>
+                                <Separator />
                             </Spacer>
                             <Ul>
                                 {industries.map((industryName) => (

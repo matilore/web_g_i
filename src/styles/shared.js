@@ -13,6 +13,13 @@ export const TitleH4 = styled.h4`
     color: ${({ color }) => (color ? color : 'inherit')};
 `
 
+export const TitleH5 = styled.h6`
+    text-tranform: uppercase;
+    width: 25vw;
+    font-size: 1.2vw;
+    color: ${({ color }) => (color ? color : 'inherit')};
+`
+
 export const TitleH6 = styled.h6`
     text-tranform: uppercase;
     width: 25vw;
@@ -36,6 +43,10 @@ export const Text2 = styled.p`
 `
 
 export const Link1 = styled.a``
+
+export const Link2 = styled.a`
+    font-size: 0.75rem;
+`
 
 export const ProductCard = styled.div`
     width: 33%;
@@ -91,4 +102,9 @@ export const Ul = styled.ul`
 
 export const Li = styled.li`
     width: 50%;
+`
+
+export const Separator = styled.div`
+    border-bottom: 2px solid black;
+    width: 450px;
 `

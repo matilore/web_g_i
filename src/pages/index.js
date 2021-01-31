@@ -14,11 +14,11 @@ import { EmbraguesImg, AcoplesImg } from '../components/products/constants'
 const HOME_PRODUCTS = [
     {
         image: EmbraguesImg,
-        title: 'products.pneumaticBrake',
+        label: 'products.pneumaticBrake',
     },
     {
         image: AcoplesImg,
-        title: 'products.industrialCouplings',
+        label: 'products.industrialCouplings',
     },
 ]
 

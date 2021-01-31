@@ -22,19 +22,12 @@ const ProductsSection = ({ products, intl }) => {
                 return (
                     <ProductCard>
                         <ProductContent>
-                            {product.title && (
+                            {product.label && (
                                 <TitleH4>
                                     {intl.formatMessage({
-                                        id: product.title,
+                                        id: product.label,
                                     })}
                                 </TitleH4>
-                            )}
-                            {product.name && (
-                                <Text1>
-                                    {intl.formatMessage({
-                                        id: product.name,
-                                    })}
-                                </Text1>
                             )}
                         </ProductContent>
                         <img src={product.image} />
