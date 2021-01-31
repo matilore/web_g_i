@@ -67,12 +67,13 @@ products.industrialCouplings.spiroflex.sizes: >
     EJ 100 A EJ 530
 products.industrialCouplings.spiroflex.useCases: >
     Sono utilizzati in applicazioni marine tra motore e cambio, generatori, ecc. È altamente raccomandato nei sistemi di propulsione.
-products.industrialCouplings.line_vnnd.name: 'Linea VNND'
-products.industrialCouplings.line_vnnd.general: ''
-products.industrialCouplings.line_vnnd.description: >
-products.industrialCouplings.line_vnnd.power:
-products.industrialCouplings.line_vnnd.sizes: >
-products.industrialCouplings.line_vnnd.useCases: >
+products.industrialCouplings.tlb.name: 'TLB'
+products.industrialCouplings.tlb.general: >
+    Il montaggio con  bussole - Taper lock consente un'installazione semplice, veloce ed efficiente, utilizzando bussole coniche standard che evitano la lavorazione meccanica dei mozzi, e quindi  già predisposti per l'alloggiamento.
+products.industrialCouplings.tlb.description: >
+products.industrialCouplings.tlb.power:
+products.industrialCouplings.tlb.sizes: >
+products.industrialCouplings.tlb.useCases: >
 products.pneumaticBrake: 'Frizioni e Freni Pneumatici'
 products.pneumaticCameras: 'Camere Pneumatiche'
 aboutUs.story.title: 'La storia'

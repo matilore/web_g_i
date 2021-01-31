@@ -9,7 +9,11 @@ import withLayout from '../layout'
 import Slider from '../components/slider'
 import ProductsSection from '../components/products/section'
 import { ContactInfo } from '../components/contact'
-import { EmbraguesImg, AcoplesImg } from '../components/products/constants'
+import {
+    EmbraguesImg,
+    AcoplesImg,
+    CamarasImg,
+} from '../components/products/constants'
 
 const HOME_PRODUCTS = [
     {
@@ -19,6 +23,10 @@ const HOME_PRODUCTS = [
     {
         image: AcoplesImg,
         label: 'products.industrialCouplings',
+    },
+    {
+        image: CamarasImg,
+        label: 'products.pneumaticCameras',
     },
 ]
 

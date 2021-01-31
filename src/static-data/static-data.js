@@ -60,14 +60,14 @@ export const COUPLINGS = {
         sizes: 'products.industrialCouplings.spiroflex.sizes',
         useCases: 'products.industrialCouplings.spiroflex.useCases',
     },
-    vnnd: {
+    tlb: {
         image: LineaVndd,
-        label: 'products.industrialCouplings.line_vnnd.name',
-        general: 'products.industrialCouplings.line_vnnd.general',
-        description: 'products.industrialCouplings.line_vnnd.description',
-        power: 'products.industrialCouplings.line_vnnd.power',
-        sizes: 'products.industrialCouplings.line_vnnd.sizes',
-        useCases: 'products.industrialCouplings.line_vnnd.useCases',
+        label: 'products.industrialCouplings.tlb.name',
+        general: 'products.industrialCouplings.tlb.general',
+        description: 'products.industrialCouplings.tlb.description',
+        power: 'products.industrialCouplings.tlb.power',
+        sizes: 'products.industrialCouplings.tlb.sizes',
+        useCases: 'products.industrialCouplings.tlb.useCases',
     },
 }
 
