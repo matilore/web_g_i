@@ -75,7 +75,71 @@ products.industrialCouplings.tlb.power:
 products.industrialCouplings.tlb.sizes: >
 products.industrialCouplings.tlb.useCases: >
 products.pneumaticBrake: 'Frizioni e Freni Pneumatici'
+products.pneumaticBrake.fk.name: 'FK'
+products.pneumaticBrake.fk.general: >
+    L'elemento pneumatico GUMMI FK è progettato e costruito per fornire un servizio affidabile di freni e frizione nelle applicazioni industriali più esigenti.
+products.pneumaticBrake.fk.description: >
+    L'elemento GUMMI FK è adatto a regimi ad alta velocità e operazioni cicliche. Combina i vantaggi di una robusta frizione e di un giunto flessibile, poiché la sua camera pneumatica assorbe i disallineamenti e le vibrazioni. L'accoppiamento delle sue pastiglie è uniforme su tutta la superficie di attrito e la coppia è proporzionale alla pressione dell'aria. Non necessita di lubrificazione o regolazione a causa dell'usura del materiale d'attrito.
+products.pneumaticBrake.fk.power: 'Agiscono in una gamma di momenti torsionali che vanno da 40,7 Nm a 58772 Nm'
+products.pneumaticBrake.fk.sizes: >
+    Con un'ampia varietà di misure da 3 "a 45", nelle sue diverse varianti, che possono essere semplici, duali, due sezioni , con 1 connessione o più connessioni a seconda delle esigenze dell'applicazione
+    Per la loro versatilità vengono utilizzati in diversi settori: siderurgico, cartario, alimentare, petrolifero, petrolifero, navale, minerario, ecc.
+products.pneumaticBrake.fke.name: 'FKE'
+products.pneumaticBrake.fke.general: >
+    Le frizioni e freni GUMMI FKE sono adatti per applicazioni a bassa velocità, avviamenti e arresti morbidi, frizioni antiscivolo e freni a tenditore con bassa dissipazione del calore.
+products.pneumaticBrake.fke.description: >
+    Unità di espansione invertita che funziona su un tamburo esterno.
+products.pneumaticBrake.fke.power: >
+    Agiscono in una gamma di momenti torsionali che vanno da 44 Nm a 10.180 Nm
+products.pneumaticBrake.fke.sizes: >
+    Con un'ampia varietà di grandezze da 4 "a 24"
+products.pneumaticBrake.fkr.name: 'FKR'
+products.pneumaticBrake.fkr.general: >
+    Gli Elementi GUMMI FKR agiscono sul tamburo di trascinamento direttamente verso l'esterno della sua camera pneumatica. Questa superficie di contatto raggiunge una densità di coppia elevata, fornendo anche un isolamento elettrico tra gli alberi da collegare.
+products.pneumaticBrake.fkr.description: >
+    Gli elementi GUMMI FKR sono ideali per applicazioni in cui è necessario eseguire lo scollegamento senza arrestare il movimento primario, oppure effettuare collegamenti e scollegamenti ciclici tra gli assi
+products.pneumaticBrake.fkr.power: >
+    Agiscono in una gamma di coppie che vanno da 45 Nm a 18880 Nm
+products.pneumaticBrake.fkr.sizes: >
+    Con un'ampia varietà di grandezze  da 3 "a 24
+products.pneumaticBrake.fkt.name: 'FKT'
+products.pneumaticBrake.fkt.general: >
+    L'elemento GUMMI FKT è progettato e costruito per resistere a elevate coppie di trasmissione della frizione o del freno, con grandi carichi inerziali e slittamento prolungato, che normalmente sarebbe una perdita di coppia e ne ridurrebbe la vita utile.
+products.pneumaticBrake.fkt.description: >
+    Sono disponibili in due serie, stretta e larga, mantenendo il loro diametro alla superficie di contatto; variando la larghezza dei pattini di attrito.
+products.pneumaticBrake.fkt.power: >
+    Agiscono in una gamma di momenti torsionali compresi tra 3050 Nm. a 632940 Nm.
+products.pneumaticBrake.fkt.sizes: >
+    Con un'ampia varietà di misure da 11,5 "a 66", nelle sue diverse varianti, che possono essere semplici, dual, con 1 connessione o connessioni multiple a seconda delle esigenze dell'applicazione.
+products.pneumaticBrake.fkt.useCases: >
+    Gli pneumatici GUMMI FKTt sono ampiamente utilizzati nell'industria petrolifera, mineraria e navale.
+products.pneumaticBrake.fm.name: 'Spiroflex'
+products.pneumaticBrake.fm.general: >
+    Gli elementi elastici GUMMI Spiroflex hanno un'elevata elasticità torsionale. Compensano i disallineamenti radiali, assiali e angolari degli alberi.
+products.pneumaticBrake.fm.description: >
+products.pneumaticBrake.fm.power:
+products.pneumaticBrake.fm.sizes: >
+    EJ 100 A EJ 530
+products.pneumaticBrake.fm.useCases: >
+    Sono utilizzati in applicazioni marine tra motore e cambio, generatori, ecc. È altamente raccomandato nei sistemi di propulsione.
+products.pneumaticBrake.rn.name: 'TLB'
+products.pneumaticBrake.rn.general: >
+    Il montaggio con  bussole - Taper lock consente un'installazione semplice, veloce ed efficiente, utilizzando bussole coniche standard che evitano la lavorazione meccanica dei mozzi, e quindi  già predisposti per l'alloggiamento.
+products.pneumaticBrake.rn.description: >
+products.pneumaticBrake.rn.power:
+products.pneumaticBrake.rn.sizes: >
+products.pneumaticBrake.rn.useCases: >
 products.pneumaticCameras: 'Camere Pneumatiche'
+products.pneumaticCameras.cn.name: 'TLB'
+products.pneumaticCameras.cn.general: >
+    Le camere pneumatiche GUMMI sono prodotte secondo un Sistema di Gestione della Qualità “certificato” e utilizzano materie prime eccellenti, costituite da una formulazione speciale di gomma e tessuto per ogni tipo di applicazione. Vengono applicati come ricambi per frizioni pneumatiche a disco  tipo Wichita. Su richiesta vengono prodotte anche camere speciali.
+products.pneumaticCameras.cn.description: >
+products.pneumaticCameras.cn.power:
+products.pneumaticCameras.cn.sizes: >
+    Modelli FKT da 11,5 "a 66". Modelli RNT da 500 mm. a 1250 mm. Modelli GWT da 08 "a 36".
+products.pneumaticCameras.cn.useCases: >
+    Camere: frizioni pneumatiche circonferenziali ventilate di tipo americano ed europeo. Frizioni pneumatiche anteriori (disco) di tipo americano ed europeo. Applicazioni speciali.
+    Diaframmi: frizioni pneumatiche per tipo DX.
 aboutUs.story.title: 'La storia'
 aboutUs.story.content: >
     La azienda inizia la attività nel 1955 con lavori conto terzi per una ditta di macchine utensili. Nel 1962 comincia a fabbricare riduttore e L\u0027azienda nasce nel 1955, con lavori in serie per un\u0027importante fabbrica di macchine utensili. Nel 1962 inizia la produzione di riduttori e penetra fortemente nel mercato della gomma producendo guarnizioni e membrane per l\u0027Industria in generale.

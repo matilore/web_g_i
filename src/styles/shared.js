@@ -1,8 +1,11 @@
 import styled, { css } from 'styled-components'
+import { Link } from 'gatsby'
+
+const gummiBlue = '#1565a8'
 
 export const TitleH1 = styled.h1`
     font-size: 45px;
-    color: #1565a8;
+    color: ${gummiBlue};
     font-weight: 800;
 `
 
@@ -46,6 +49,13 @@ export const Link1 = styled.a``
 
 export const Link2 = styled.a`
     font-size: 0.75rem;
+`
+
+export const GatbsyLink = styled(Link)`
+    &:link {
+        text-decoration: none;
+        color: ${gummiBlue};
+    }
 `
 
 export const ProductCard = styled.div`

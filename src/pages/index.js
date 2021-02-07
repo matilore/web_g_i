@@ -17,14 +17,17 @@ import {
 
 const HOME_PRODUCTS = [
     {
+        route: '/products/a',
         image: EmbraguesImg,
         label: 'products.pneumaticBrake',
     },
     {
+        route: '/products/b',
         image: AcoplesImg,
         label: 'products.industrialCouplings',
     },
     {
+        route: '/products/c',
         image: CamarasImg,
         label: 'products.pneumaticCameras',
     },

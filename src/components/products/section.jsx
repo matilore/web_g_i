@@ -7,6 +7,8 @@ import {
     Text1,
 } from '../../styles/shared'
 
+import Link from '../../components/LocalizedLink'
+
 const Section = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -21,16 +23,18 @@ const ProductsSection = ({ products, intl }) => {
             {products.map((product) => {
                 return (
                     <ProductCard>
-                        <ProductContent>
-                            {product.label && (
-                                <TitleH4>
-                                    {intl.formatMessage({
-                                        id: product.label,
-                                    })}
-                                </TitleH4>
-                            )}
-                        </ProductContent>
-                        <img src={product.image} />
+                        <Link to={product.route || '/'}>
+                            <ProductContent>
+                                {product.label && (
+                                    <TitleH4>
+                                        {intl.formatMessage({
+                                            id: product.label,
+                                        })}
+                                    </TitleH4>
+                                )}
+                            </ProductContent>
+                            <img src={product.image} />
+                        </Link>
                     </ProductCard>
                 )
             })}

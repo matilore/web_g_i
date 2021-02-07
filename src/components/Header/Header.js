@@ -3,12 +3,13 @@ import { FormattedMessage } from 'react-intl'
 import { Navbar, Nav } from 'react-bootstrap'
 import { injectIntl } from 'react-intl'
 import { NavDropdown } from './styled-components'
+import Link from '../../components/LocalizedLink'
 
 import LanguageSwitcher from '../LanguageSwitcher'
 
 const Header = ({ intl }) => (
     <Navbar className="justify-content-end" bg="light" expand="lg">
-        <Navbar.Brand href="#home">Gummi</Navbar.Brand>
+        <Link to="/">Gummi</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">

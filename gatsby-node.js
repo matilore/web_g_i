@@ -48,7 +48,6 @@ const createProductDetailsPage = (createPage, productCategory) => {
     // Create a page for each Pokémon.
     allProducts.forEach((product) => {
         languages.forEach((lang) => {
-            console.log('IN CONSOLE!', productCategory, product)
             const localizedPath = getLocalizedPath(
                 `/products/${productCategory}/${product}`,
                 lang.locale
