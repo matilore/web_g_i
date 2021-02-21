@@ -13,6 +13,7 @@ product.details.characteristcs: 'Caratteristica'
 product.details.power: 'Coppie'
 product.details.sizes: 'Dimensioni'
 product.details.useCases: 'Applicazioni'
+product.details.download.catalogue: 'Scarica  il catalogo'
 products.title: 'Prodotti'
 products.industrialCouplings: 'Giunti'
 products.industrialCouplings.line_a.name: 'Linea A'
@@ -27,6 +28,7 @@ products.industrialCouplings.line_a.sizes: >
     Modello da A-20 a A-400. Oltre allo standard,  o con rivestimento sintetico (RE) -per ambienti aggressivi-. I mozzi possono essere: mozzo normale (CN); mozzo integrale (CI); mozzo assiale (CX); mozzo bobina (CC), mozzi incassati (CE)., con disco freno (DF), con puleggia freno (APF) e flangiato (CF).
 products.industrialCouplings.line_a.useCases: >
     Per la loro versatilità vengono utilizzati in diversi settori: siderurgico, cartario, alimentare, petrolifero, petrolifero, navale, minerario, ecc.
+products.industrialCouplings.line_a.catalogueUrl: '../cat/a.pdf'
 products.industrialCouplings.line_an.name: 'Linea AN'
 products.industrialCouplings.line_an.general: >
     Il Giunto pneumatico  GUMMI AN è stato appositamente progettato per proteggere le trasmissioni e le macchine dagli effetti distruttivi delle fluttuazioni di coppia ad alto momento torsionale, associate a macchine a combustione interna, pompe alternative, compressori, mulini ecc.

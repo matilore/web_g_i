@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ProductsSection from '../components/products/section'
-import { TitleH1, Spacer, Text2, TitleH6 } from '../styles/shared'
+import { TitleH1, Spacer, Text2, TitleH6, Button } from '../styles/shared'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import { injectIntl } from 'react-intl'
@@ -24,9 +24,26 @@ const PRODUCTS = {
 const ProductDetails = ({ pageContext, intl }) => {
     const {
         product: { productCategory, name },
+        locale,
     } = pageContext
 
+    const [cat, setCat] = useState(null)
+
     const product = PRODUCTS[productCategory][name]
+
+    useEffect(() => {
+        if (name) {
+            import(`catalogues/${locale}/${name}.pdf`)
+                .then((module) => {
+                    console.log(module)
+                    setCat(module.default)
+                })
+                .catch((e) => {
+                    console.log(e)
+                    setCat(null)
+                })
+        }
+    }, [])
 
     return (
         <Container>
@@ -92,6 +109,16 @@ const ProductDetails = ({ pageContext, intl }) => {
                                 id: product.useCases,
                             })}
                         </Text2>
+                        {cat && (
+                            <a href={cat} download>
+                                <Button>
+                                    {intl.formatMessage({
+                                        id:
+                                            'product.details.download.catalogue',
+                                    })}
+                                </Button>
+                            </a>
+                        )}
                     </Col>
                 </Row>
             </Spacer>
