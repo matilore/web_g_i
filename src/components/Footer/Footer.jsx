@@ -1,71 +1,76 @@
 import React from 'react'
 import { FormattedHTMLMessage } from 'react-intl'
 import { FooterSection, FooterWrapper } from './styled-components'
+import { Container, Row, Col } from 'react-bootstrap'
 import { TitleH5, Text2, Link2 } from '../../styles/shared'
 import { injectIntl } from 'react-intl'
 
 const Footer = ({ intl }) => (
     <FooterWrapper>
-        <FooterSection>
-            <TitleH5>
-                {intl.formatMessage({
-                    id: 'footer.about_us.title',
-                })}
-            </TitleH5>
-            <Text2>
-                {intl.formatMessage({
-                    id: 'footer.about_us.content',
-                })}
-            </Text2>
-        </FooterSection>
-        <FooterSection>
-            <TitleH5>
-                {intl.formatMessage({
-                    id: 'footer.address.title',
-                })}
-            </TitleH5>
-            <Text2>
-                {intl.formatMessage({
-                    id: 'footer.address.content',
-                })}
-            </Text2>
-        </FooterSection>
-        <FooterSection>
-            <TitleH5>
-                {intl.formatMessage({
-                    id: 'footer.contact.title',
-                })}
-            </TitleH5>
-            <Text2>
-                {intl.formatMessage({
-                    id: 'footer.contact.tel',
-                })}
-            </Text2>
-            <Link2 href="mailto:email">
-                {' '}
-                {intl.formatMessage({
-                    id: 'footer.contact.email',
-                })}
-            </Link2>
-        </FooterSection>
-        <FooterSection>
-            <TitleH5>
-                {intl.formatMessage({
-                    id: 'products.title',
-                })}
-            </TitleH5>
-            <Link2 href="/acoplamientos">
-                {intl.formatMessage({
-                    id: 'products.industrialCouplings',
-                })}
-            </Link2>
+        <Container>
+            <Row>
+                <FooterSection>
+                    <TitleH5>
+                        {intl.formatMessage({
+                            id: 'footer.about_us.title',
+                        })}
+                    </TitleH5>
+                    <Text2>
+                        {intl.formatMessage({
+                            id: 'footer.about_us.content',
+                        })}
+                    </Text2>
+                </FooterSection>
+                <FooterSection>
+                    <TitleH5>
+                        {intl.formatMessage({
+                            id: 'footer.address.title',
+                        })}
+                    </TitleH5>
+                    <Text2>
+                        {intl.formatMessage({
+                            id: 'footer.address.content',
+                        })}
+                    </Text2>
+                </FooterSection>
+                <FooterSection>
+                    <TitleH5>
+                        {intl.formatMessage({
+                            id: 'footer.contact.title',
+                        })}
+                    </TitleH5>
+                    <Text2>
+                        {intl.formatMessage({
+                            id: 'footer.contact.tel',
+                        })}
+                    </Text2>
+                    <Link2 href="mailto:email">
+                        {' '}
+                        {intl.formatMessage({
+                            id: 'footer.contact.email',
+                        })}
+                    </Link2>
+                </FooterSection>
+                <FooterSection>
+                    <TitleH5>
+                        {intl.formatMessage({
+                            id: 'products.title',
+                        })}
+                    </TitleH5>
+                    <Link2 href="/acoplamientos">
+                        {intl.formatMessage({
+                            id: 'products.industrialCouplings',
+                        })}
+                    </Link2>
 
-            <Link2 href="/embragues">
-                {intl.formatMessage({
-                    id: 'products.pneumaticBrake',
-                })}
-            </Link2>
-        </FooterSection>
+                    <Link2 href="/embragues">
+                        {intl.formatMessage({
+                            id: 'products.pneumaticBrake',
+                        })}
+                    </Link2>
+                </FooterSection>
+            </Row>
+        </Container>
     </FooterWrapper>
 )
 

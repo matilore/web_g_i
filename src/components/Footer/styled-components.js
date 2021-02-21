@@ -8,9 +8,9 @@ export const FooterSection = styled.div`
 
 export const FooterWrapper = styled.footer`
     margin-top: 64px;
-    width: 100%;
     height: 150px;
-    display: flex;
+    position: relative;
+    bottom: 0;
     padding: 32px;
     background-color: lightGrey;
 `

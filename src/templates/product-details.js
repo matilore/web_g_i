@@ -35,11 +35,9 @@ const ProductDetails = ({ pageContext, intl }) => {
         if (name) {
             import(`catalogues/${locale}/${name}.pdf`)
                 .then((module) => {
-                    console.log(module)
                     setCat(module.default)
                 })
                 .catch((e) => {
-                    console.log(e)
                     setCat(null)
                 })
         }

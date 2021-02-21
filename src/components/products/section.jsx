@@ -3,8 +3,9 @@ import styled from 'styled-components'
 import {
     ProductCard,
     ProductContent,
-    TitleH4,
+    TitleH5,
     Text1,
+    ImageWrapper,
 } from '../../styles/shared'
 
 import Link from '../../components/LocalizedLink'
@@ -26,14 +27,16 @@ const ProductsSection = ({ products, intl }) => {
                         <Link to={product.route || '/'}>
                             <ProductContent>
                                 {product.label && (
-                                    <TitleH4>
+                                    <TitleH5>
                                         {intl.formatMessage({
                                             id: product.label,
                                         })}
-                                    </TitleH4>
+                                    </TitleH5>
                                 )}
                             </ProductContent>
-                            <img src={product.image} />
+                            <ImageWrapper>
+                                <img src={product.image} />
+                            </ImageWrapper>
                         </Link>
                     </ProductCard>
                 )

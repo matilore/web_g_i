@@ -1,5 +1,7 @@
 navbar.contact: 'Contatto'
 navbar.aboutus: 'Chi siamo'
+navbar.about-us.story: 'La nostra storia'
+navbar.about-us.certifications: 'Certificati'
 navbar.products: 'Prodotti'
 navbar.languages: 'Lingue'
 footer.about_us.title: 'Chi siamo'

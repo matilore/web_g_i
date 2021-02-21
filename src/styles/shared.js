@@ -12,13 +12,13 @@ export const TitleH1 = styled.h1`
 export const TitleH4 = styled.h4`
     text-tranform: uppercase;
     width: 28vw;
-    font-size: 2vw;
+    font-size: 1.4vw;
     color: ${({ color }) => (color ? color : 'inherit')};
 `
 
-export const TitleH5 = styled.h6`
+export const TitleH5 = styled.h5`
     text-tranform: uppercase;
-    width: 25vw;
+    width: 28vw;
     font-size: 1.2vw;
     color: ${({ color }) => (color ? color : 'inherit')};
 `
@@ -63,18 +63,20 @@ export const ProductCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px 40px;
+    padding: 24px;
     box-sizing: border-box;
     border-radius: 10px;
     cursor: pointer;
+    transition: 1s ease-in-out;
 
     &:hover {
         transform: scale(1.04);
     }
 
-    h4 {
+    h5 {
         padding-bottom: 16px;
         border-bottom: 2px solid darkGrey;
+        width: 100%;
     }
 `
 
@@ -92,7 +94,7 @@ export const Icon = styled.svg`
 
 export const Button = styled.button`
     padding: 8px 32px;
-    background-color: #6c5ce7;
+    background-color: ${gummiBlue};
     color: white;
     border: none;
     border-radius: 12px;
@@ -117,4 +119,9 @@ export const Li = styled.li`
 export const Separator = styled.div`
     border-bottom: 2px solid black;
     width: 450px;
+`
+
+export const ImageWrapper = styled.div`
+    width: 90%;
+    height: 90%;
 `

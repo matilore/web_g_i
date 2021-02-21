@@ -24,7 +24,6 @@ export const COUPLINGS = {
         power: 'products.industrialCouplings.line_a.power',
         sizes: 'products.industrialCouplings.line_a.sizes',
         useCases: 'products.industrialCouplings.line_a.useCases',
-        catalogueUrl: 'products.industrialCouplings.line_a.catalogUrl',
     },
     an: {
         route: '/products/a/an',

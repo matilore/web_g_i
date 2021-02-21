@@ -10,3 +10,7 @@ export const NavDropdown = styled(BootstrapNav)`
         }
     }
 `
+
+export const LogoWrapper = styled.div`
+    width: 150px;
+`
