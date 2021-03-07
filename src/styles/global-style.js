@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0 ;
     background-color: #fff;
+    color: #3a3a3a;
   }
 `
 export default GlobalStyle

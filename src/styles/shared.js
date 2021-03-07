@@ -54,8 +54,8 @@ export const Link2 = styled.a`
 export const GatbsyLink = styled(Link)`
     &:link {
         text-decoration: none;
-        color: ${gummiBlue};
     }
+    color: ${gummiBlue} !important;
 `
 
 export const ProductCard = styled.div`

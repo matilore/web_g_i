@@ -44,8 +44,7 @@ const Footer = ({ intl }) => (
                             id: 'footer.contact.tel',
                         })}
                     </Text2>
-                    <Link2 href="mailto:email">
-                        {' '}
+                    <Link2 href="mailto:info@gummiitalia.it">
                         {intl.formatMessage({
                             id: 'footer.contact.email',
                         })}
@@ -57,15 +56,20 @@ const Footer = ({ intl }) => (
                             id: 'products.title',
                         })}
                     </TitleH5>
-                    <Link2 href="/acoplamientos">
+                    <Link2 href="/a">
                         {intl.formatMessage({
                             id: 'products.industrialCouplings',
                         })}
                     </Link2>
 
-                    <Link2 href="/embragues">
+                    <Link2 href="/b">
                         {intl.formatMessage({
                             id: 'products.pneumaticBrake',
+                        })}
+                    </Link2>
+                    <Link2 href="/c">
+                        {intl.formatMessage({
+                            id: 'products.pneumaticCameras',
                         })}
                     </Link2>
                 </FooterSection>

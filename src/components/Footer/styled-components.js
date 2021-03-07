@@ -1,9 +1,24 @@
 import styled from 'styled-components'
+const gummiBlue = '#1565a8'
 
 export const FooterSection = styled.div`
-    width: calc(25% - 5px);
+    width: calc(25% - 32px);
     display: flex;
     flex-direction: column;
+    word-wrap: break-word;
+
+    &:not(:first-child) {
+        margin-left: 32px;
+    }
+
+    a {
+        text-decoration: none;
+        width: fit-content;
+        &: hover {
+            background: ${gummiBlue};
+            color: white;
+        }
+    }
 `
 
 export const FooterWrapper = styled.footer`

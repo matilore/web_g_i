@@ -5,12 +5,14 @@ navbar.about-us.certifications: 'Certificati'
 navbar.products: 'Prodotti'
 navbar.languages: 'Lingue'
 footer.about_us.title: 'Chi siamo'
-footer.about_us.content: 'Chi siamo'
+footer.about_us.content: 'Lavoriamo nella produzione di giunti, frizioni, freni e camere pneumatiche da più di 50 anni'
 footer.address.title: 'Indirizzo'
-footer.address.content: 'Lorem ispsum'
+footer.address.content: >
+    Via Cartesio, 36,
+    41126, Modena - Italia
 footer.contact.title: 'Contatto'
-footer.contact.tel: '+34 ...'
-footer.contact.email: 'mail@gmail.com'
+footer.contact.tel: '+39 059 346731'
+footer.contact.email: 'info@gummiitalia.it'
 product.details.characteristcs: 'Caratteristica'
 product.details.power: 'Coppie'
 product.details.sizes: 'Dimensioni'
