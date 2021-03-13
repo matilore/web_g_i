@@ -12,18 +12,18 @@ import { PageContext } from '../../pageContext'
 import { LanguageSwitcherWrapper } from './styled-components'
 
 const flags = {
+    it,
     es,
     en,
     pt,
-    it,
 }
 
 const LanguageSwitcher = () => (
     <PageContext.Consumer>
         {({ originalPath, locale }) => (
             <LanguageSwitcherWrapper>
-                {languages.map((lang) =>
-                    lang.locale === locale ? (
+                {languages.map((lang) => {
+                    return lang.locale === locale ? (
                         <img
                             key={lang.locale}
                             src={flags[lang.locale]}
@@ -37,7 +37,7 @@ const LanguageSwitcher = () => (
                             <img src={flags[lang.locale]} alt={lang.label} />
                         </Link>
                     )
-                )}
+                })}
             </LanguageSwitcherWrapper>
         )}
     </PageContext.Consumer>

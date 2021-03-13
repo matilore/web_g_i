@@ -48,8 +48,19 @@ const Contact = () => {
                         <Spacer bottom={3}>
                             <TitleH6> Leave us a message</TitleH6>
                         </Spacer>
-                        <Form>
-                            <Form.Group controlId="form.name">
+                        <form
+                            method="post"
+                            netlify-honeypot="bot-field"
+                            data-netlify="true"
+                            name="contact"
+                        >
+                            <input type="hidden" name="bot-field" />
+                            <input
+                                type="hidden"
+                                name="form-name"
+                                value="contact"
+                            />
+                            <Form.Group controlId="form.name" role="form">
                                 <Form.Control
                                     type="text"
                                     placeholder="Full name"
@@ -96,7 +107,7 @@ const Contact = () => {
                             >
                                 Send message
                             </Button>
-                        </Form>
+                        </form>
                     </Col>
 
                     <Col lg={6}>

@@ -16,7 +16,6 @@ const createProductsPages = (createPage) => {
         { name: 'b', title: 'products.pneumaticBrake' },
         { name: 'c', title: 'products.pneumaticCameras' },
     ]
-    // Create a page for each Pokémon.
     allProducts.forEach((product) => {
         languages.forEach((lang) => {
             const localizedPath = getLocalizedPath(

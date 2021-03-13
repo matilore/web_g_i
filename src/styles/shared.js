@@ -4,29 +4,19 @@ import { Link } from 'gatsby'
 const gummiBlue = '#1565a8'
 
 export const TitleH1 = styled.h1`
-    font-size: 45px;
     color: ${gummiBlue};
     font-weight: 800;
 `
 
 export const TitleH4 = styled.h4`
-    text-tranform: uppercase;
-    width: 28vw;
-    font-size: 1.4vw;
     color: ${({ color }) => (color ? color : 'inherit')};
 `
 
 export const TitleH5 = styled.h5`
-    text-tranform: uppercase;
-    width: 28vw;
-    font-size: 1.2vw;
     color: ${({ color }) => (color ? color : 'inherit')};
 `
 
 export const TitleH6 = styled.h6`
-    text-tranform: uppercase;
-    width: 25vw;
-    font-size: 1.6vw;
     color: ${({ color }) => (color ? color : 'inherit')};
 `
 
@@ -63,7 +53,7 @@ export const ProductCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px;
+    padding: 16px;
     box-sizing: border-box;
     border-radius: 10px;
     cursor: pointer;
@@ -73,10 +63,22 @@ export const ProductCard = styled.div`
         transform: scale(1.04);
     }
 
+    @media (max-width: 768px) {
+        padding: 8px;
+    }
+
     h5 {
-        padding-bottom: 16px;
+        padding-bottom: 8px;
         border-bottom: 2px solid darkGrey;
         width: 100%;
+
+        @media (max-width: 768px) {
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 0.9rem;
+        }
     }
 `
 

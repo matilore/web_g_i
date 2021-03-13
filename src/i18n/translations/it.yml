@@ -80,7 +80,7 @@ products.industrialCouplings.tlb.description: >
 products.industrialCouplings.tlb.power:
 products.industrialCouplings.tlb.sizes: >
 products.industrialCouplings.tlb.useCases: >
-products.pneumaticBrake: 'Frizioni e Freni Pneumatici'
+products.pneumaticBrake: 'Frizioni e Freni'
 products.pneumaticBrake.fk.name: 'FK'
 products.pneumaticBrake.fk.general: >
     L'elemento pneumatico GUMMI FK è progettato e costruito per fornire un servizio affidabile di freni e frizione nelle applicazioni industriali più esigenti.

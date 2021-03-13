@@ -18,13 +18,13 @@ import {
 const HOME_PRODUCTS = [
     {
         route: '/products/a',
-        image: EmbraguesImg,
-        label: 'products.pneumaticBrake',
+        image: AcoplesImg,
+        label: 'products.industrialCouplings',
     },
     {
         route: '/products/b',
-        image: AcoplesImg,
-        label: 'products.industrialCouplings',
+        image: EmbraguesImg,
+        label: 'products.pneumaticBrake',
     },
     {
         route: '/products/c',

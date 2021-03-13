@@ -72,7 +72,7 @@ const Header = ({ intl, locale }) => (
                     </NavDropdown>
                 </Spacer>
             </Nav>
-            <Spacer top={1} bottom={1} right={1}>
+            <Spacer top={1} bottom={1} right={2}>
                 <Link to={'/contact'}>
                     {intl.formatMessage({
                         id: 'navbar.contact',

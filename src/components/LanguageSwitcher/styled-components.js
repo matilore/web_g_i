@@ -5,11 +5,6 @@ export const LanguageSwitcherWrapper = styled.div`
     align-items: center;
     height: 40px;
 
-    // @media (max-width: 576px) {
-    //     flex-direction: column;
-    //     align-items: start;
-    // }
-
     img {
         width: 1.2em;
         height: 30px;
