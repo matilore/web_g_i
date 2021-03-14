@@ -16,7 +16,7 @@ const serialize = (formFields) => {
     }, '')
 }
 
-const Contact = () => {
+const Contact = ({ intl }) => {
     const [formFields, setFormFields] = useState({})
 
     const handleOnChange = (event) => {
@@ -30,7 +30,11 @@ const Contact = () => {
                 <Row>
                     <Col lg={6}>
                         <Spacer bottom={3}>
-                            <TitleH6> Leave us a message</TitleH6>
+                            <TitleH6>
+                                {intl.formatMessage({
+                                    id: 'contact.title',
+                                })}
+                            </TitleH6>
                         </Spacer>
                         <form
                             method="post"
@@ -47,7 +51,9 @@ const Contact = () => {
                             <Form.Group controlId="form.name" role="form">
                                 <Form.Control
                                     type="text"
-                                    placeholder="Full name"
+                                    placeholder={intl.formatMessage({
+                                        id: 'contact.form.fullName',
+                                    })}
                                     onChange={handleOnChange}
                                     name="name"
                                 />
@@ -55,7 +61,9 @@ const Contact = () => {
                             <Form.Group controlId="form.email">
                                 <Form.Control
                                     type="email"
-                                    placeholder="Email"
+                                    placeholder={intl.formatMessage({
+                                        id: 'contact.form.email',
+                                    })}
                                     onChange={handleOnChange}
                                     name="email"
                                 />
@@ -63,7 +71,9 @@ const Contact = () => {
                             <Form.Group controlId="form.subject">
                                 <Form.Control
                                     type="text"
-                                    placeholder="Subject"
+                                    placeholder={intl.formatMessage({
+                                        id: 'contact.form.subject',
+                                    })}
                                     onChange={handleOnChange}
                                     name="subject"
                                 />
@@ -74,7 +84,9 @@ const Contact = () => {
                                     rows={5}
                                     onChange={handleOnChange}
                                     name="message"
-                                    placeholder="Your message..."
+                                    placeholder={intl.formatMessage({
+                                        id: 'contact.form.message',
+                                    })}
                                 />
                             </Form.Group>
                             <Button
@@ -94,7 +106,7 @@ const Contact = () => {
 
                     <Col lg={6}>
                         <Spacer top={5}>
-                            <ContactDetails />
+                            <ContactDetails intl={intl} />
                             <Map height={224} />
                         </Spacer>
                     </Col>

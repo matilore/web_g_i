@@ -15,24 +15,33 @@ const ContactDetail = styled.div`
     align-items: center;
     margin: 16px;
 
+    svg {
+        flex-shrink: 0;
+    }
+
     p {
         margin: 0;
     }
 `
+
 const contactDetails = [
-    { icon: Location, text: 'Via Manzoni' },
-    { icon: Phone, text: '+34 65654654' },
-    { icon: Email, text: 'hello@info.com' },
+    { icon: Location, text: 'home.contact.address' },
+    { icon: Phone, text: 'home.contact.phone' },
+    { icon: Email, text: 'home.contact.email' },
 ]
 
-export const ContactDetails = () => {
+export const ContactDetails = ({ intl }) => {
     return (
         <ContentDetails>
             {contactDetails.map(({ icon, text }) => {
                 return (
                     <ContactDetail>
                         <Icon as={icon} />
-                        <Text2>{text}</Text2>
+                        <Text2>
+                            {intl.formatMessage({
+                                id: text,
+                            })}
+                        </Text2>
                     </ContactDetail>
                 )
             })}

@@ -1,38 +1,46 @@
 import React from 'react'
-import { navigate } from 'gatsby'
+import { Row, Col } from 'react-bootstrap'
 
 import styled from 'styled-components'
 import ContentDetails from './contact-details'
 import Map from './map'
-import { Button } from '../../styles/shared'
-
-const Wrapper = styled.div`
-    margin-top: 32px;
-    display: flex;
-`
+import { Button, Spacer } from '../../styles/shared'
+import Link from '../LocalizedLink'
 
 const ContentWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 0px 32px;
-    width: 50%;
     justify-content: space-between;
+    height: 100%;
 `
 
-const ContactInfo = () => {
+const ContactInfo = ({ intl }) => {
     return (
         <>
-            <h4>Contacto</h4>
-            <Wrapper>
-                <Map />
-                <ContentWrapper>
-                    <ContentDetails />
-
-                    <Button onClick={() => navigate('/contact')}>
-                        Contactanos
-                    </Button>
-                </ContentWrapper>
-            </Wrapper>
+            <h4>
+                {intl.formatMessage({
+                    id: 'home.contact',
+                })}
+            </h4>
+            <Spacer top={2}>
+                <Row>
+                    <Col lg={6}>
+                        <Map />
+                    </Col>
+                    <Col lg={6}>
+                        <ContentWrapper>
+                            <ContentDetails intl={intl} />
+                            <Link to={'/contact'}>
+                                <Button>
+                                    {intl.formatMessage({
+                                        id: 'home.contact.cta',
+                                    })}
+                                </Button>
+                            </Link>
+                        </ContentWrapper>
+                    </Col>
+                </Row>
+            </Spacer>
         </>
     )
 }

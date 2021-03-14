@@ -1,4 +1,13 @@
 home.title: 'Gummi'
+home.contact: 'Contatto'
+home.contact.cta: 'Contattaci'
+home.contact.address: >
+    Via Cartesio, 36,
+    41126, Modena - Italia
+home.contact.phone: >
+    +39 059 346731
+home.contact.email: >
+    info@gummiitalia.it
 navbar.contact: 'Contatto'
 navbar.aboutus: 'Chi siamo'
 navbar.about-us.story: 'La nostra storia'
@@ -147,6 +156,11 @@ products.pneumaticCameras.cn.sizes: >
 products.pneumaticCameras.cn.useCases: >
     Camere: frizioni pneumatiche circonferenziali ventilate di tipo americano ed europeo. Frizioni pneumatiche anteriori (disco) di tipo americano ed europeo. Applicazioni speciali.
     Diaframmi: frizioni pneumatiche per tipo DX.
+contact.title: 'Inviaci un messaggio'
+contact.form.fullName: 'nome completo'
+contact.form.email: 'e-mail'
+contact.form.subject: 'soggetto'
+contact.form.message: 'messaggio'
 aboutUs.story.title: 'La storia'
 aboutUs.story.content: >
     La azienda inizia la attività nel 1955 con lavori conto terzi per una ditta di macchine utensili. Nel 1962 comincia a fabbricare riduttore e L\u0027azienda nasce nel 1955, con lavori in serie per un\u0027importante fabbrica di macchine utensili. Nel 1962 inizia la produzione di riduttori e penetra fortemente nel mercato della gomma producendo guarnizioni e membrane per l\u0027Industria in generale.

@@ -44,7 +44,7 @@ const IndexPage = ({ intl }) => (
                 <Row>
                     <Col>
                         <ProductsSection intl={intl} products={HOME_PRODUCTS} />
-                        <ContactInfo />
+                        <ContactInfo intl={intl} />
                     </Col>
                 </Row>
             </Container>

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const StyledMap = styled.img`
     border-radius: 20px;
+    width: 100% !important;
 `
 
 const Map = ({ width = 500, height = 250 }) =>

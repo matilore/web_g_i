@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 
 import es from '../../images/es.svg'
 import en from '../../images/en.svg'
-import pt from '../../images/pt.svg'
 import it from '../../images/it.svg'
 
 import { languages, getLocalizedPath } from '../../i18n'
@@ -15,7 +14,6 @@ const flags = {
     it,
     es,
     en,
-    pt,
 }
 
 const LanguageSwitcher = () => (
