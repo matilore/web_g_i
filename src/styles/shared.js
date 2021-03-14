@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components'
 import { Link } from 'gatsby'
+import { BREAKPOINTS } from './constants'
 
 const gummiBlue = '#1565a8'
 
@@ -63,7 +64,7 @@ export const ProductCard = styled.div`
         transform: scale(1.04);
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: ${BREAKPOINTS.md}) {
         padding: 8px;
     }
 
