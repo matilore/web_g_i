@@ -146,7 +146,7 @@ products.pneumaticBrake.rn.power:
 products.pneumaticBrake.rn.sizes: >
 products.pneumaticBrake.rn.useCases: >
 products.pneumaticCameras: 'Camere Pneumatiche'
-products.pneumaticCameras.cn.name: 'TLB'
+products.pneumaticCameras.cn.name: 'Camere pneumatiche'
 products.pneumaticCameras.cn.general: >
     Le camere pneumatiche GUMMI sono prodotte secondo un Sistema di Gestione della Qualità “certificato” e utilizzano materie prime eccellenti, costituite da una formulazione speciale di gomma e tessuto per ogni tipo di applicazione. Vengono applicati come ricambi per frizioni pneumatiche a disco  tipo Wichita. Su richiesta vengono prodotte anche camere speciali.
 products.pneumaticCameras.cn.description: >

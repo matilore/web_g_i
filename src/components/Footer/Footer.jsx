@@ -9,70 +9,78 @@ const Footer = ({ intl }) => (
     <FooterWrapper>
         <Container>
             <Row>
-                <FooterSection>
-                    <TitleH6>
-                        {intl.formatMessage({
-                            id: 'footer.about_us.title',
-                        })}
-                    </TitleH6>
-                    <Text2>
-                        {intl.formatMessage({
-                            id: 'footer.about_us.content',
-                        })}
-                    </Text2>
-                </FooterSection>
-                <FooterSection>
-                    <TitleH6>
-                        {intl.formatMessage({
-                            id: 'footer.address.title',
-                        })}
-                    </TitleH6>
-                    <Text2>
-                        {intl.formatMessage({
-                            id: 'footer.address.content',
-                        })}
-                    </Text2>
-                </FooterSection>
-                <FooterSection>
-                    <TitleH6>
-                        {intl.formatMessage({
-                            id: 'footer.contact.title',
-                        })}
-                    </TitleH6>
-                    <Text2>
-                        {intl.formatMessage({
-                            id: 'footer.contact.tel',
-                        })}
-                    </Text2>
-                    <Text2>
-                        {intl.formatMessage({
-                            id: 'footer.contact.email',
-                        })}
-                    </Text2>
-                </FooterSection>
-                <FooterSection>
-                    <TitleH6>
-                        {intl.formatMessage({
-                            id: 'products.title',
-                        })}
-                    </TitleH6>
-                    <Link2 href="/a">
-                        {intl.formatMessage({
-                            id: 'products.industrialCouplings',
-                        })}
-                    </Link2>
+                <Col sm={3}>
+                    <FooterSection>
+                        <TitleH6>
+                            {intl.formatMessage({
+                                id: 'footer.about_us.title',
+                            })}
+                        </TitleH6>
+                        <Text2>
+                            {intl.formatMessage({
+                                id: 'footer.about_us.content',
+                            })}
+                        </Text2>
+                    </FooterSection>
+                </Col>
+                <Col sm={3}>
+                    <FooterSection>
+                        <TitleH6>
+                            {intl.formatMessage({
+                                id: 'footer.address.title',
+                            })}
+                        </TitleH6>
+                        <Text2>
+                            {intl.formatMessage({
+                                id: 'footer.address.content',
+                            })}
+                        </Text2>
+                    </FooterSection>
+                </Col>
+                <Col sm={3}>
+                    <FooterSection>
+                        <TitleH6>
+                            {intl.formatMessage({
+                                id: 'footer.contact.title',
+                            })}
+                        </TitleH6>
+                        <Text2>
+                            {intl.formatMessage({
+                                id: 'footer.contact.tel',
+                            })}
+                        </Text2>
+                        <Text2>
+                            {intl.formatMessage({
+                                id: 'footer.contact.email',
+                            })}
+                        </Text2>
+                    </FooterSection>
+                </Col>
+                <Col sm={3}>
+                    <FooterSection>
+                        <TitleH6>
+                            {intl.formatMessage({
+                                id: 'products.title',
+                            })}
+                        </TitleH6>
+                        <Link2 href="/a">
+                            {intl.formatMessage({
+                                id: 'products.industrialCouplings',
+                            })}
+                        </Link2>
 
-                    <Link2 href="/b">
-                        {intl.formatMessage({
-                            id: 'products.pneumaticBrake',
-                        })}
-                    </Link2>
-                    <Link2 href="/c">
-                        {intl.formatMessage({
-                            id: 'products.pneumaticCameras',
-                        })}
-                    </Link2>
-                </FooterSection>
+                        <Link2 href="/b">
+                            {intl.formatMessage({
+                                id: 'products.pneumaticBrake',
+                            })}
+                        </Link2>
+                        <Link2 href="/c">
+                            {intl.formatMessage({
+                                id: 'products.pneumaticCameras',
+                            })}
+                        </Link2>
+                    </FooterSection>
+                </Col>
             </Row>
         </Container>
     </FooterWrapper>

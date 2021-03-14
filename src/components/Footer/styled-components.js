@@ -3,10 +3,9 @@ const gummiBlue = '#1565a8'
 import { BREAKPOINTS } from '../../styles/constants'
 
 export const FooterSection = styled.div`
-    width: calc(25% - 32px);
+    height: 100%;
     display: flex;
     flex-direction: column;
-    word-wrap: break-word;
 
     &:not(:first-child) {
         margin-left: 32px;
@@ -27,6 +26,11 @@ export const FooterSection = styled.div`
 
     p {
         margin-bottom: 4px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        color: ${gummiBlue};
     }
 `
 
@@ -36,7 +40,7 @@ export const FooterWrapper = styled.footer`
     position: relative;
     bottom: 0;
     padding: 24px 32px;
-    background-color: #193263;
+    background-color: #102142;
     color: white;
 
     @media (max-width: ${BREAKPOINTS.lg}) {
@@ -45,5 +49,12 @@ export const FooterWrapper = styled.footer`
 
     @media (max-width: ${BREAKPOINTS.md}) {
         padding: 8px 8px;
+    }
+
+    @media (max-width: ${BREAKPOINTS.sm}) {
+        height: auto;
+        h6 {
+            margin-top: 16px;
+        }
     }
 `

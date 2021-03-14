@@ -15,7 +15,7 @@ const Section = styled.div`
     flex-wrap: wrap;
     margin: 64px 0;
     width: 100%;
-    justify-content: space-around;
+    justify-content: flex-start;
 `
 
 const ProductsSection = ({ products, intl }) => {

@@ -44,71 +44,92 @@ const ProductDetails = ({ pageContext, intl }) => {
     }, [])
 
     const handleOpenCat = (url) => () => window.open(url)
+    const {
+        image,
+        label,
+        general,
+        characteristics,
+        power,
+        sizes,
+        useCases,
+    } = product
 
     return (
         <Container>
             <Spacer top={5}>
                 <Row>
                     <Col lg={6}>
-                        <img src={product.image} />
+                        <img src={image} />
                     </Col>
                     <Col lg={6}>
                         <TitleH1>
                             {intl.formatMessage({
-                                id: product.label,
+                                id: label,
                             })}
                         </TitleH1>
                         <Text2>
                             {intl.formatMessage({
-                                id: product.general,
+                                id: general,
                             })}
                         </Text2>
-                        <TitleH6>
-                            {intl.formatMessage({
-                                id: 'product.details.characteristcs',
-                            })}
-                        </TitleH6>
+                        {characteristics && (
+                            <>
+                                <TitleH6>
+                                    {intl.formatMessage({
+                                        id: 'product.details.characteristcs',
+                                    })}
+                                </TitleH6>
+                                <Text2>
+                                    {intl.formatMessage({
+                                        id: characteristics,
+                                    })}
+                                </Text2>
+                            </>
+                        )}
+                        {power && (
+                            <>
+                                <TitleH6>
+                                    {intl.formatMessage({
+                                        id: 'product.details.power',
+                                    })}
+                                </TitleH6>
 
-                        <Text2>
-                            {intl.formatMessage({
-                                id: product.description,
-                            })}
-                        </Text2>
+                                <Text2>
+                                    {intl.formatMessage({
+                                        id: power,
+                                    })}
+                                </Text2>
+                            </>
+                        )}
+                        {sizes && (
+                            <>
+                                <TitleH6>
+                                    {intl.formatMessage({
+                                        id: 'product.details.sizes',
+                                    })}
+                                </TitleH6>
 
-                        <TitleH6>
-                            {intl.formatMessage({
-                                id: 'product.details.power',
-                            })}
-                        </TitleH6>
-
-                        <Text2>
-                            {intl.formatMessage({
-                                id: product.power,
-                            })}
-                        </Text2>
-                        <TitleH6>
-                            {intl.formatMessage({
-                                id: 'product.details.sizes',
-                            })}
-                        </TitleH6>
-
-                        <Text2>
-                            {intl.formatMessage({
-                                id: product.sizes,
-                            })}
-                        </Text2>
-
-                        <TitleH6>
-                            {intl.formatMessage({
-                                id: 'product.details.useCases',
-                            })}
-                        </TitleH6>
-
-                        <Text2>
-                            {intl.formatMessage({
-                                id: product.useCases,
-                            })}
-                        </Text2>
+                                <Text2>
+                                    {intl.formatMessage({
+                                        id: sizes,
+                                    })}
+                                </Text2>
+                            </>
+                        )}
+                        {useCases && (
+                            <>
+                                <TitleH6>
+                                    {intl.formatMessage({
+                                        id: 'product.details.useCases',
+                                    })}
+                                </TitleH6>
+                                <Text2>
+                                    {intl.formatMessage({
+                                        id: useCases,
+                                    })}
+                                </Text2>
+                            </>
+                        )}
                         {cat && (
                             <Button onClick={handleOpenCat(cat)}>
                                 {intl.formatMessage({
