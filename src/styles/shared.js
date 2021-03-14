@@ -105,6 +105,10 @@ export const Button = styled.button`
     font-weight: bold;
     width: 100%;
 
+    &:focus {
+        outline: none;
+    }
+
     &:disabled {
         opacity: 0.5;
     }

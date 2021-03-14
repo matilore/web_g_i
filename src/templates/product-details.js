@@ -43,6 +43,8 @@ const ProductDetails = ({ pageContext, intl }) => {
         }
     }, [])
 
+    const handleOpenCat = (url) => () => window.open(url)
+
     return (
         <Container>
             <Spacer top={5}>
@@ -108,14 +110,11 @@ const ProductDetails = ({ pageContext, intl }) => {
                             })}
                         </Text2>
                         {cat && (
-                            <a href={cat} download>
-                                <Button>
-                                    {intl.formatMessage({
-                                        id:
-                                            'product.details.download.catalogue',
-                                    })}
-                                </Button>
-                            </a>
+                            <Button onClick={handleOpenCat(cat)}>
+                                {intl.formatMessage({
+                                    id: 'product.details.download.catalogue',
+                                })}
+                            </Button>
                         )}
                     </Col>
                 </Row>
