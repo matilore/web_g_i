@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import ProductsSection from '../components/products/section'
 import { TitleH1, Spacer, Text2, TitleH6, Button } from '../styles/shared'
 import { Container, Row, Col } from 'react-bootstrap'
 

@@ -7,7 +7,7 @@
 const { languages, getLocalizedPath } = require('./src/i18n')
 
 const COUPLINGS_PATHS = ['a', 'an', 'br', 'ez', 'spiroflex', 'tlb']
-const PNEUMATIC_BRAKS_PATHS = ['fk', 'fke', 'fkr', 'fkt', 'fm', 'rn']
+const PNEUMATIC_BRAKS_PATHS = ['fk', 'fke', 'fkr', 'fkt']
 const PNEUMATIC_CAMERAS_PATHS = ['cn']
 
 const createProductsPages = (createPage) => {

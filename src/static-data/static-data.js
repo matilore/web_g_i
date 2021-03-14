@@ -9,8 +9,6 @@ import { default as LineaFk } from '../images/b/fk.png'
 import { default as LineaFke } from '../images/b/fke.png'
 import { default as LineaFkr } from '../images/b/fkr.png'
 import { default as LineaFkt } from '../images/b/fkt.png'
-import { default as LineaFm } from '../images/b/fm.png'
-import { default as LineaRn } from '../images/b/rn.png'
 
 import { default as Cn } from '../images/c/cn.png'
 
