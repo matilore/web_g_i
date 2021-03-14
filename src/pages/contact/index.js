@@ -19,25 +19,9 @@ const serialize = (formFields) => {
 const Contact = () => {
     const [formFields, setFormFields] = useState({})
 
-    // const parseMessage = (name, message) =>
-    //     `${name} te ha escrito lo siguiente \n
-    //     ${message}
-    //     `
-
     const handleOnChange = (event) => {
         const name = event.target.getAttribute('name')
         setFormFields({ ...formFields, [name]: event.target.value })
-    }
-
-    const handleClick = () => {
-        // axios({
-        //     method: 'post',
-        //     url:
-        //         'https://script.google.com/macros/s/AKfycbywUrKmjH1UYLB-TKBISw6uU3HJiVvdIQGydzvnhX0FZDOKfeeW/exec',
-        //     data: serialize(formFields),
-        // })
-        //     .then((res) => console.log(res))
-        //     .catch((err) => console.log(err))
     }
 
     return (
@@ -94,7 +78,6 @@ const Contact = () => {
                                 />
                             </Form.Group>
                             <Button
-                                type="button"
                                 disabled={
                                     !(
                                         formFields.name &&
@@ -103,7 +86,6 @@ const Contact = () => {
                                         formFields.message
                                     )
                                 }
-                                onClick={handleClick}
                             >
                                 Send message
                             </Button>
