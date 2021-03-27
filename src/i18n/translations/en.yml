@@ -1,4 +1,168 @@
+home.title: 'Gummi'
+home.contact: 'Contact'
+home.contact.cta: 'Contact Us'
+home.contact.address: >
+    Via Cartesio, 36,
+    41126, Modena - Italy
+home.contact.phone: >
+    +39 347 567 1087
+home.contact.email: >
+    info@gummiitalia.it
 navbar.contact: 'Contact'
 navbar.aboutus: 'About us'
+navbar.about-us.story: 'Our story'
+navbar.about-us.certifications: 'Certificates'
 navbar.products: 'Products'
 navbar.languages: 'Languages'
+footer.about_us.title: 'About us'
+footer.about_us.content: 'We are in the field of couplings, clutches, breaks and pneumatic tubes for over 50 years'
+footer.address.title: 'Address'
+footer.address.content: >
+    Via Cartesio, 36,
+    41126, Modena - Italy
+footer.contact.title: 'Contact'
+footer.contact.tel: '+39 347 567 1087'
+footer.contact.email: 'info@gummiitalia.it'
+product.details.characteristcs: ' Characteristic'
+product.details.power: 'Torque'
+product.details.sizes: 'Dimensions'
+product.details.useCases: 'Use cases'
+product.details.download.catalogue: 'Open catalog'
+products.title: 'Products'
+products.industrialCouplings: 'Couplings'
+products.industrialCouplings.line_a.name: 'Line A'
+products.industrialCouplings.line_a.general: >
+    GUMMI type A The Flexible  couplings type A absorb misalignments and vibrations. Misalignment represents 50% of the causes of bearing breaking, as well as other elements of the machines (seals, gears), which are not designed for bending stressed on the shaft. The GUMMI coupling, being elastic, absorbs misalignments, increasing the useful life of the components. It dampens vibrations and shocks, offering a longer service life on transmission components. The average of the vibrations that are transmitted in a system, from one side of the application to the other is about 70%, an aspect minimized by the absorption capacity of the elastic element. GUMMI couplings are easy to install; replacement is faster because it is a single element. Allows higher alignment tolerances. It has no need to move the parts for its replacement.
+products.industrialCouplings.line_a.description: >
+    Symmetry, safety and balance: since there are no cuts in the flexible element, an optimal balance and safety for the user is guaranteed.
+products.industrialCouplings.line_a.power: 'From 38 Nm. Up to 168,750 Nm.'
+products.industrialCouplings.line_a.sizes: >
+    Model A-20 to A-400. In addition to the standard, or with synthetic coating (RE) - for aggressive environments -. The hubs can be: normal hub (CN); integral hub (CI); axial hub (CX); flange hub (CC), fitted hubs (CE), with brake disc (DF), with brake pulley (APF) and flanged (CF).
+products.industrialCouplings.line_a.useCases: >
+    Due to their versatility they are used in various sectors: steel, paper, food, oil, petroleum, naval, mining, etc.
+products.industrialCouplings.line_an.name: 'Line AN'
+products.industrialCouplings.line_an.general: >
+    The GUMMI AN pneumatic coupling has been specially designed to protect transmissions and machines from the destructive effects of high torsional moment torque fluctuations, associated with internal combustion machines, reciprocating pumps, compressors, mills etc.
+    At present, the GUMMI pneumatic coupling has an outstanding performance in marine installations, thanks to its flexibility and ability to control high torque fluctuations by reducing vibrations, with an unbeatable feature: the degree of flexibility can be varied, 'by modifying the pressure of air', since there is a large hysteresis area between the deflection values ​​of the up and down torques
+products.industrialCouplings.line_an.description: >
+    It absorbs misalignments, it is simple to install, it notably helps to reduce the noise of any transmission, and it provides excellent electrical insulation. It acts as a shock reducer, taking advantage of the resistance of its rubber chamber; reduces torsional fluctuations, in the same way, the natural hysteresis of its flexible element helps reduce vibrations. Due to its constructive characteristics, it lacks all types of lubrication.
+products.industrialCouplings.line_an.power:
+products.industrialCouplings.line_an.sizes: >
+    There are 15 models and 13 mounting combinations that can be made with a standard element, in addition to mounting on a flywheel, floating axles and its particular tandem design.
+products.industrialCouplings.line_an.useCases: >
+products.industrialCouplings.line_br.name: 'Linea BR'
+products.industrialCouplings.line_br.general: >
+    Using the latest generation materials, GUMMI has developed an elastic coupling for low rotations with a more compact design than the traditional line with dimensions similar to rigid and semi-rigid couplings, maintaining its ability to absorb misalignment, vibrations, torque fluctuations and increasing the useful life of the other components of a transmission.
+products.industrialCouplings.line_br.description: >
+    It does not require lubrication, minimizing corrective, preventive and predictive maintenance actions, both in the coupling and in the transmission, reducing machine downtime by up to 5 times. For the replacement of the flexible element it is not necessary to move the parts.
+products.industrialCouplings.line_br.power: >
+    They can work with torques between 4,000 Nm and 250,000 Nm
+products.industrialCouplings.line_br.sizes: >
+    Models go from BR-100 to BR-320
+products.industrialCouplings.line_br.useCases: >
+    Conveyors, grinding / ball mills, mud pumps, bucket elevator, redler, etc.
+products.industrialCouplings.line_ez.name: 'Linea EZ'
+products.industrialCouplings.line_ez.general: >
+    The GUMMI EZ elements are made of natural rubber and synthetic fibers, with internal reinforcement of steels.
+products.industrialCouplings.line_ez.description: >
+    They absorb misalignments and vibrations, protecting the transmission components.
+products.industrialCouplings.line_ez.power:
+products.industrialCouplings.line_ez.sizes: >
+    They are provided in 10 sizes, and 30 different models, with their different configurations.
+products.industrialCouplings.line_ez.useCases: >
+    GUMMI EZ elastic elements are used in the marine and mining industry.
+products.industrialCouplings.spiroflex.name: 'Spiroflex'
+products.industrialCouplings.spiroflex.general: >
+    GUMMI Spiroflex elastic elements have high torsional elasticity. They compensate for central, axial and angular misalignments of the shafts.
+products.industrialCouplings.spiroflex.description: >
+products.industrialCouplings.spiroflex.power:
+products.industrialCouplings.spiroflex.sizes: >
+    EJ 100 A EJ 530
+products.industrialCouplings.spiroflex.useCases: >
+    They are used in marine applications between engine and gearbox, generators, etc. It is highly recommended in propulsion systems.
+products.industrialCouplings.tlb.name: 'TLB'
+products.industrialCouplings.tlb.general: >
+    The coupling with the Taper lock bushing mounting system allows a simple, fast, and efficient installation, using standard conical bushings that avoid machining in their hubs, which are already predisposed to house them.
+products.industrialCouplings.tlb.description: >
+products.industrialCouplings.tlb.power:
+products.industrialCouplings.tlb.sizes: >
+products.industrialCouplings.tlb.useCases: >
+products.pneumaticBrake: 'Frizioni e Freni'
+products.pneumaticBrake.fk.name: 'FK'
+products.pneumaticBrake.fk.general: >
+    The GUMMI FK tire is designed and built to provide reliable brake and clutch service in the most demanding industrial applications.
+products.pneumaticBrake.fk.description: >
+    The GUMMI FK rim is adapted to high speed regimes and cyclical operations. It combines the advantages of a robust clutch and a flexible coupling, as its pneumatic chamber absorbs misalignment and vibrations. The coupling of its pads is uniform over the entire friction surface and the torque is proportional to the air pressure. It does not need lubrication or regulation due to wear of the friction material.
+products.pneumaticBrake.fk.power: 'They act in a range of torsional moments that go from 40.7 Nm to 58772 Nm'
+products.pneumaticBrake.fk.sizes: >
+    With a wide variety of sizes from 3 "to 45", in its different variants, which can be simple, dual, split, with 1 connection or multiple connections as required by the application
+products.pneumaticBrake.fke.name: 'FKE'
+products.pneumaticBrake.fke.general: >
+    GUMMI FKE elements are suitable for low speed applications, soft starts and stops, slip clutches and tensioner brakes with low heat dissipation.
+products.pneumaticBrake.fke.description: >
+    Inverted expansion drive that works on an external drum.
+products.pneumaticBrake.fke.power: >
+    They act in a range of torsional moments that go from 44 Nm to 10 180 Nm
+products.pneumaticBrake.fke.sizes: >
+    With a wide variety of sizes from 4 "to 24"
+products.pneumaticBrake.fkr.name: 'FKR'
+products.pneumaticBrake.fkr.general: >
+    GUMM FKR rims act on the external drum of its pneumatic tube. This contact surface achieves a high torque in a relatively small package, also provides an electrical isolation between the shafts to be connected.
+products.pneumaticBrake.fkr.description: >
+    GUMMI FKR rims are ideal for applications where disconnection must be done without stopping the primary movement, or cyclical connections and disconnections are made between shafts.
+products.pneumaticBrake.fkr.power: >
+    They act in a range of torsional moments that go from 45 Nm to 18880 Nm
+products.pneumaticBrake.fkr.sizes: >
+    With a wide variety of sizes from 3 "to 24
+products.pneumaticBrake.fkt.name: 'FKT'
+products.pneumaticBrake.fkt.general: >
+    The GUMMI FKT type of rim is designed and built to withstand severe clutch or brake actions, with large inertial loads and sustained slippage, which would normally be a loss of torque and would reduce its useful life.
+products.pneumaticBrake.fkt.description: >
+    They are available in two series, narrow and wide, keeping their diameter at the contact surface; varying the width of the friction pads.
+products.pneumaticBrake.fkt.power: >
+    They act in a range of torsional moments that go between 3050 Nm. at 632940 Nm.
+products.pneumaticBrake.fkt.sizes: >
+    With a wide variety of sizes from 11.5 "to 66", in its different variants, which can be simple, dual, split, with 1 connection or multiple connections as required by the application.
+products.pneumaticBrake.fkt.useCases: >
+    GUMMI FKT types are widely used in the oil, mining and shipbuilding industries.
+products.pneumaticCameras: 'Pneumatic tubes'
+products.pneumaticCameras.cn.name: 'Pneumatic tubes'
+products.pneumaticCameras.cn.general: >
+    GUMMI pneumatic tube are manufactured under a "certified" Quality Management System and use excellent raw materials, made up of a special formulation of rubber and fabric for each type of application. They are applied as spare parts for front and ventilated circumferential pneumatic clutches (with toothed disc). Special cameras are also manufactured on request.
+products.pneumaticCameras.cn.description: >
+products.pneumaticCameras.cn.power:
+products.pneumaticCameras.cn.sizes: >
+    Tubes: FKT models from 11.5 "to 66". 500 mm RNT models. at 1250 mm. GWT models from 08 "to 36". Coremo type models and cameras under design to consult.
+products.pneumaticCameras.cn.useCases: >
+    Tubes Ventilated Pneumatic Clutches of the American and European type. Front Pneumatic Clutches (disc) of the American and European type. Special applications.
+    Diaphragms: Ventilated Pneumatic Clutches of the DX type. Front disc clutches of the GO type. Special applications.
+contact.title: 'Send us a message'
+contact.form.fullName: 'Full name'
+contact.form.email: 'E-mail'
+contact.form.subject: 'Subject'
+contact.form.message: 'Message'
+contact.form.cta: 'Send messagge'
+aboutUs.story.title: 'Our story'
+aboutUs.story.content: >
+    The company began in 1955, with serial works for an important machine and tool factory. In 1962 it began to manufacture speed reducers and penetrated strongly in the rubber market, producing seals and diaphragms for the Industry in general.
+    In 1964, during a long promotional trip to the interior of the country, the need was detected to create a national coupling that perfects the qualities offered by those used at that time, where only a European model was marketed under license. After 2 years of hard work, in 1966 the Universal Elastic Whole Band Coupling was born, patented in the National Directorate of Intellectual Property.
+    In 1968 GUMMI was created. Through a strategic marketing network throughout the country, the coupling was quickly spread and accepted in all types of industries. The success was resounding, to the point of converting the brand \u0027GUMMI\u0027 as the generic name of the coupling.
+    By the 1970s with the Petroleum Industry booming, a key element for drilling equipment was consumed: the Pneumatic Clutches. Companies operating in the country were forced to have a considerable stock due to the delay in delivery times, and to import significant quantities. At that time, under the concept of developing national technology and with the support of YPF, we were invited to a new challenge: to manufacture the Pneumatic Clutches -GUMMI to replace the Fawick (current EATON-Airflex) of the USA (models CB, VC and EB) and start testing on different drilling rigs Oil Well, Ideco, Emsco, Cardwell, etc. After this first stage, the DY-A-FLEX type clutches were also developed for National teams, the Romanian type for UPETROM teams, frontal single-disc and multi-disc pneumatic clutches similar to Twin Disc-Wichita, and other mechanical power transmission components.
+    As of the 80s, both the Coupling and the GUMMI Clutch were already consolidated as leaders in the National Market and a stage of expansion to Latin America began, exporting to almost all the countries in the region. In 1990, the first export to the USA was made and to carry it out we completed the line of Pneumatic Clutches –GUMMI, being 100% interchangeable with the models manufactured in that country.
+    Since 1999, our exports to the USA have increased exponentially, taking Houston as a strategic marketing base, and from that moment on incorporating a number of certifications that support the already proven performance. From that moment, a stage of globalization of GUMMI products began, reaching unexpected destinations such as Japan, Malaysia, Taiwan, Nigeria, Saudi Arabia and Siberia, among others.
+    Due to the growth of international demand, in 2003 an Industrial Plant of 5000 M2 was acquired. In addition, in recent years new technologies have been incorporated into machinery and innovations have been made in the development of High Torque Elastic and Semi-elastic Couplings to satisfy the needs that the market demands.
+aboutUs.industries.title: 'Industries'
+aboutUs.industries.oil: 'Oil & Gas / Drilling'
+aboutUs.industries.paper: 'Pulp and Paper / Production'
+aboutUs.industries.mineral: 'Mining'
+aboutUs.industries.pm: 'Marine / dredging and fishing propulsion'
+aboutUs.industries.li: 'Commercial washing machines'
+aboutUs.industries.pn: 'Manufacture of tires'
+aboutUs.industries.water: 'Water treatment'
+aboutUs.industries.textil: 'Textile'
+aboutUs.industries.metal: 'Metallurgical'
+aboutUs.industries.general: 'General industry / Manufacturing processes'
+aboutUs.industries.power: 'Power transmission'
+aboutUs.industries.content: 'We are aware of your industrial and business needs. Above all, we are dedicated to providing a solution-oriented service to optimize the performance of your equipment.'
+aboutUs.certificates.iso.title: 'ISO Certificate'
+aboutUs.certificates.atex.title: 'ATEX Certificate'

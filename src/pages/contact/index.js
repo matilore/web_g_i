@@ -6,7 +6,7 @@ import withPageContext from '../../pageContext'
 import { Container, Row, Col } from 'react-bootstrap'
 import withLayout from '../../layout'
 import { compose } from 'recompose'
-import { Button, TitleH6, Spacer } from '../../styles/shared'
+import { Button, TitleH6, TitleH5, Spacer } from '../../styles/shared'
 import ContactDetails from '../../components/contact/contact-details'
 import Map from '../../components/contact/map'
 
@@ -30,11 +30,11 @@ const Contact = ({ intl }) => {
                 <Row>
                     <Col lg={6}>
                         <Spacer bottom={3}>
-                            <TitleH6>
+                            <TitleH5>
                                 {intl.formatMessage({
                                     id: 'contact.title',
                                 })}
-                            </TitleH6>
+                            </TitleH5>
                         </Spacer>
                         <form
                             method="post"
@@ -50,6 +50,7 @@ const Contact = ({ intl }) => {
                             />
                             <Form.Group controlId="form.name" role="form">
                                 <Form.Control
+                                    required
                                     type="text"
                                     placeholder={intl.formatMessage({
                                         id: 'contact.form.fullName',
@@ -60,6 +61,7 @@ const Contact = ({ intl }) => {
                             </Form.Group>
                             <Form.Group controlId="form.email">
                                 <Form.Control
+                                    required
                                     type="email"
                                     placeholder={intl.formatMessage({
                                         id: 'contact.form.email',
@@ -70,6 +72,7 @@ const Contact = ({ intl }) => {
                             </Form.Group>
                             <Form.Group controlId="form.subject">
                                 <Form.Control
+                                    required
                                     type="text"
                                     placeholder={intl.formatMessage({
                                         id: 'contact.form.subject',
@@ -80,6 +83,7 @@ const Contact = ({ intl }) => {
                             </Form.Group>
                             <Form.Group controlId="form.message">
                                 <Form.Control
+                                    required
                                     as="textarea"
                                     rows={5}
                                     onChange={handleOnChange}
@@ -99,7 +103,9 @@ const Contact = ({ intl }) => {
                                     )
                                 }
                             >
-                                Send message
+                                {intl.formatMessage({
+                                    id: 'contact.form.cta',
+                                })}
                             </Button>
                         </form>
                     </Col>

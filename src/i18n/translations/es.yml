@@ -1,19 +1,147 @@
+home.title: 'Gummi'
+home.contact: 'Contacto'
+home.contact.cta: 'Contactanos'
+home.contact.address: >
+    Via Cartesio, 36,
+    41126, Modena - Italia
+home.contact.phone: >
+    +39 347 567 1087
+home.contact.email: >
+    info@gummiitalia.it
 navbar.contact: 'Contacto'
-navbar.aboutus: 'Sobre nosotros'
+navbar.aboutus: 'Acerca nuestro'
+navbar.about-us.story: 'Nuestra historia'
+navbar.about-us.certifications: 'Certificados'
 navbar.products: 'Productos'
 navbar.languages: 'Lenguas'
 footer.about_us.title: 'Acerca nuestro'
-footer.about_us.content: 'Acerca nuestro'
+footer.about_us.content: 'Trabajamos en la producción de acoplamientos, embragues, frenos y camaras neumaticas desde hace más de 50 años.'
 footer.address.title: 'Dirección'
-footer.address.content: 'Lorem ispsum'
+footer.address.content: >
+    Via Cartesio, 36,
+    41126, Modena - Italia
 footer.contact.title: 'Contacto'
-footer.contact.tel: '+34 ...'
-footer.contact.email: 'mail@gmail.com'
+footer.contact.tel: '+39 347 567 1087'
+footer.contact.email: 'info@gummiitalia.it'
+product.details.characteristcs: 'Característica'
+product.details.power: 'Potencias'
+product.details.sizes: 'Tamaños'
+product.details.useCases: 'Aplicaciones'
+product.details.download.catalogue: 'Abre catalogo'
 products.title: 'Productos'
-products.industrialCouplings: 'Acoplamientos Industriales'
-products.pneumaticBrake: 'Embragues y Frenos'
-products.pneumaticCameras: 'Camaras Neumaticas'
-aboutUs.story.title: 'La historia'
+products.industrialCouplings: 'Acoplamientos'
+products.industrialCouplings.line_a.name: 'Linea A'
+products.industrialCouplings.line_a.general: >
+    Los acoples elásticos GUMMI línea A, absorben desalineaciones y vibraciones. La desalineación representa el 50% de las causas de las roturas en rodamientos, además de otros elementos de las máquinas (sellos, retenes, engranajes), que no están preparados para la flexión introducida al eje. El acoplamiento GUMMI, por ser elástico, absorbe desalineamientos, reduciendo los esfuerzos y aumentando la vida útil de los componentes.Amortigua vibraciones y choques, proporcionando una mayor vida útil a su equipamiento. La media de vibraciones que se trasmiten en un sistema, de un lado al otro, es del orden 70%, siendo este último minimizado por la capacidad de absorción del centro elástico.Los acoples GUMMI son de simple instalación; el reemplazo es mas rápido por tratarse de un solo elemento. Utiliza mayores tolerancias de alineación. No es necesario mover las partes para su reemplazo y no requieren lubricación.
+products.industrialCouplings.line_a.description: >
+    Simetría, seguridad y balanceo: al no presentar cortes en el centro elástico, se garantiza un óptimo balanceo y seguridad al usuario.
+products.industrialCouplings.line_a.power: '38 Nm. hasta 168750 Nm.'
+products.industrialCouplings.line_a.sizes: >
+    Modelo A-20 hasta A-400. Además del standard, el centro elástico puede ser reforzado (R) o con recubrimiento sintètico (RE)-para ambientes agresivos-. Los cubos pueden ser: cubo normal (CN); cubo integral (CI); cubo axial (CX); cubo carretel (CC), cubos encastrados (CE)., con disco de freno (DF), con polea de freno (APF) y con plato brida (CF).
+products.industrialCouplings.line_a.useCases: >
+    Por su versatilidad, son utilizados en distintas industrias: siderúrgica, papelera, alimenticia, aceitera, petrolera, naval, minera, etc.
+products.industrialCouplings.line_an.name: 'Linea AN'
+products.industrialCouplings.line_an.general: >
+    El acoplamiento neumático GUMMI AN ha sido diseñado especialmente para proteger transmisiones y máquinas de los efectos destructivos de las fluctuaciones de torque de alto momento torsional, asociados con máquinas de combustión interna, bombas alternativas, compresores, molinos etc..En la actualidad, el acoplamiento neumático GUMMI tiene una destacada performance en instalaciones marinas, gracias a su flexibilidad y capacidad de controlar las elevadas fluctuaciones de torque anulando vibraciones, con una inigualable particularidad: el grado de flexibilidad puede ser variado, «modificando la presión de aire», dado que hay una amplia área de histéresis entre los valores de deflexión de los momentos de torsión ascendentes y descendentes.
+products.industrialCouplings.line_an.description: >
+    Absorbe desalineaciones, es de simple instalación, ayuda notablemente a reducir ruidos propios de cualquier transmisión, y provee una excelente aislación eléctrica. Actúa como reductor de choques, aprovechando la resilencia de su cámara de goma; reduce las fluctuaciones torsionales, del mismo modo, la histéresis natural de su elemento flexible ayuda a reducir vibraciones. Por sus características constructivas carece de todo tipo de lubricación.
+products.industrialCouplings.line_an.power:
+products.industrialCouplings.line_an.sizes: >
+    Son 15 los modelos y 13 las combinaciones de montaje que se pueden realizar con un elemento estándar, además del montaje sobre volante, ejes flotantes y su particular diseño en tándem.
+products.industrialCouplings.line_an.useCases: >
+products.industrialCouplings.line_br.name: 'Linea BR'
+products.industrialCouplings.line_br.general: >
+    Utilizando materiales de última generación, GUMMI ha desarrollado un acoplamiento elástico para bajas rotaciones con un diseño más compacto que la línea tradicional -de dimensiones similares a los acoplamientos rígidos y semi-rígidos-, manteniendo su capacidad de absorber desalineación, vibraciones, fluctuaciones de torque, protegiendo y aumentando la vida útil de los demás componentes de una transmisión.
+products.industrialCouplings.line_br.description: >
+    No requieren lubricación, miminizando las acciones de mantenimiento correctivo, preventivo y predictivo, tanto en el acoplamiento como en la transmision, disminuyendo hasta 5 veces el tiempo de parada de maquina. Para la inspección o cambio del centro elástico, no es necesario mover las partes.
+products.industrialCouplings.line_br.power: >
+    Pueden trabajar con torques entre los 4.000 Nm y los 250.000 Nm
+products.industrialCouplings.line_br.sizes: >
+    Los modelos varían entre el BR-100 al BR-320
+products.industrialCouplings.line_br.useCases: >
+    Acople de baja para cintas transportadoras, molinos de trituración/de bolas, bombas de lodo, elevador a cangilones, redler, etc.
+products.industrialCouplings.line_ez.name: 'Linea EZ'
+products.industrialCouplings.line_ez.general: >
+    Los elementos elásticos GUMMI EZ, están fabricados con caucho natural y fibras sintéticas, con refuerzo interno de aceros.
+products.industrialCouplings.line_ez.description: >
+    Absorben desalineaciones y vibraciones protegiendo lo componentes de las transmisión.
+products.industrialCouplings.line_ez.power:
+products.industrialCouplings.line_ez.sizes: >
+    Son provistos en 10 tamaños, y 30 distintos modelos, con sus diferentes configuraciones.
+products.industrialCouplings.line_ez.useCases: >
+    Los elementos elásticos GUMMI EZ son utilizados en la industria marina y minera.
+products.industrialCouplings.spiroflex.name: 'Spiroflex'
+products.industrialCouplings.spiroflex.general: >
+    Los elementos elásticos GUMMI Spiroflex son de alta elasticidad torsional . Compensan desajustes centrales, axial y angular de los ejes.
+products.industrialCouplings.spiroflex.description: >
+products.industrialCouplings.spiroflex.power:
+products.industrialCouplings.spiroflex.sizes: >
+    EJ 100 A EJ 530
+products.industrialCouplings.spiroflex.useCases: >
+    Son utilizados en aplicaciones marinas ente motor y caja de cambios, generadores, etc. Es altamente recomendado en sistemas de propulsión.
+products.industrialCouplings.tlb.name: 'TLB'
+products.industrialCouplings.tlb.general: >
+    El acople con sistema de montaje Taper lock bushing permite una instalación simple , rápida, y eficaz, utlizando bujes cónicos standard que evitan el mecanizado en sus cubos, las cuales son ya predispuestos para alojarlos.
+products.industrialCouplings.tlb.description: >
+products.industrialCouplings.tlb.power:
+products.industrialCouplings.tlb.sizes: >
+products.industrialCouplings.tlb.useCases: >
+products.pneumaticBrake: 'Frizioni e Freni'
+products.pneumaticBrake.fk.name: 'FK'
+products.pneumaticBrake.fk.general: >
+    La llanta GUMMI FK está diseñada y construida para brindar un confiable servicio de embrague y freno en las más exigentes aplicaciones industriales.
+products.pneumaticBrake.fk.description: >
+    La llanta GUMMI FK se adapta a regímenes elevados de velocidad y operaciones cíclicas. Combina las ventajas de un embrague robusto y un acople flexible, pues su cámara neumática absorbe desalineación y vibraciones. El acople de sus pastillas es uniforme sobre toda la superficie de fricción y el torque es proporcional a la presión de aire. No necesita lubricación ni regulación por desgaste del material de fricción.
+products.pneumaticBrake.fk.power: 'Actuan en un rango de momentos torsores que van de 40.7 Nm a 58772 Nm'
+products.pneumaticBrake.fk.sizes: >
+    Con una amplia variedad de tamaños entre 3" a 45", en sus distintas variantes, que pueden ser simples, duales, partidas, con 1 conexión o múltiples conexiones a requerimiento de la aplicación
+products.pneumaticBrake.fke.name: 'FKE'
+products.pneumaticBrake.fke.general: >
+    Las llantas GUMMI FKE son apropiadas para aplicaciones de bajas velocidades, arranques y paradas suaves, embragues deslizantes y frenos tensionadores con baja disipación de calor.
+products.pneumaticBrake.fke.description: >
+    Accionamiento invertido de expansión que trabaja sobre una campana externa.
+products.pneumaticBrake.fke.power: >
+    Actuan en un rango de momentos torsores que van de 44 Nm a 10180 Nm
+products.pneumaticBrake.fke.sizes: >
+    Con una amplia variedad de tamaños entre 4" a 24"
+products.pneumaticBrake.fkr.name: 'FKR'
+products.pneumaticBrake.fkr.general: >
+    Las llantas GUMM FKR actúan en la campana de arrastre directamente con la parte exterior de su cámara neumática. Esta superficie de contacto logra un alto torque en un relativo paquetizado pequeño, asimismo provee una aislación eléctrica entre los ejes a conectar.
+products.pneumaticBrake.fkr.description: >
+    Las llantas GUMMI FKR son ideales para aplicaciones donde la desconexión se debe realizar sin detener el movimiento primario, o se realiza conexiones y desconexiones cíclicas entre los ejes
+products.pneumaticBrake.fkr.power: >
+    Actuan en un rango de momentos torsores que van de 45 Nm a 18880 Nm
+products.pneumaticBrake.fkr.sizes: >
+    Con una amplia variedad de tamaños entre 3" a 24
+products.pneumaticBrake.fkt.name: 'FKT'
+products.pneumaticBrake.fkt.general: >
+    El tipo de llanta GUMMI FKT está diseñada y construída para soportar severas acciones de embrague o freno, con grandes cargas de inercia y un sostenido patinamiento, que normalmente sería una pérdida de torque y reduciría su vida útil.
+products.pneumaticBrake.fkt.description: >
+    Están disponibles en dos series, angosta y ancha, manteniendo su diámetro en la superficie de contacto; variando el ancho de las zapatas de fricción.
+products.pneumaticBrake.fkt.power: >
+    Actuan en un rango de momentos torsores que van entre 3050 Nm. a 632940 Nm.
+products.pneumaticBrake.fkt.sizes: >
+    Con una amplia variedad de tamaños entre 11.5" a 66", en sus distintas variantes, que pueden ser simples, duales, partidas, con 1 conexión o múltiples conexiones a requerimiento de la aplicación.
+products.pneumaticBrake.fkt.useCases: >
+    La llantas GUMMI Fkt son muy utilizadas en la industria petrolera, minera y naval.
+products.pneumaticCameras: 'Camaras neumaticas'
+products.pneumaticCameras.cn.name: 'Camaras neumaticas'
+products.pneumaticCameras.cn.general: >
+    Las cámaras neumáticas GUMMI son fabricadas bajo un Sistema de Gestión de Calidad «certificado» y utilizan materias primas de excelencia, conformadas por una formulación especial de goma y tela para cada tipo de aplicación. Se aplican como repuestos de embragues neumáticos circunferenciales ventilados y frontales (de disco dentado). También se fabrican cámaras especiales bajo pedido.
+products.pneumaticCameras.cn.description: >
+products.pneumaticCameras.cn.power:
+products.pneumaticCameras.cn.sizes: >
+    Cámaras: Modelos FKT de 11,5" a 66". Modelos RNT de 500 mm. a 1250 mm. Modelos GWT de 08" a 36". Modelos tipo Coremo y cámaras bajo diseño a consultar.
+products.pneumaticCameras.cn.useCases: >
+    Cámaras: Embragues Neumáticos Circunsferenciales Ventilados del tipo americano y europeo. Embragues Neumáticos Frontales (de disco) del tipo americano y europeo. Aplicaciones especiales.
+    Diafragmas: Embragues Neumáticos Circunferenciales Ventilados del tipo DX. Embragues Frontales a disco del tipo GO. Aplicaciones especiales.
+contact.title: 'Invianos un mensaje'
+contact.form.fullName: 'Nombre completo'
+contact.form.email: 'E-mail'
+contact.form.subject: 'Sujeto'
+contact.form.message: 'Mensaje'
+contact.form.cta: 'Invia mensaje'
+aboutUs.story.title: 'Nuestra historia'
 aboutUs.story.content: >
     La empresa se inicia en 1955, con trabajos seriados para una importante fábrica de máquinas y herramientas. En 1962 empieza a fabricar reductores de velocidad y se incursiona fuertemente en el mercado del caucho produciendo retenes y diafragmas para la Industria en general.
     En 1964, durante un largo viaje de promoción al interior del país, se detecta la necesidad de crear un acoplamiento nacional que perfeccione las cualidades ofrecidas por los utilizados en aquella época, donde solo se comercializaba un modelo europeo bajo licencia. Luego de 2 años de arduo trabajo, en 1966 nace el Acoplamiento Elástico Universal de Banda Entera, patentado en la Dirección Nacional de Propiedad Intelectual.
@@ -22,3 +150,18 @@ aboutUs.story.content: >
     A partir de los ´80, tanto el Acople como el Embrague GUMMI estaban ya consolidados como líderes en el Mercado Nacional y comienza una etapa de expansión hacia Latinoamérica, realizando exportaciones a casi todos los países de la región. En 1990, se realiza la primera exportación a USA y para llevarla a cabo completamos la línea de Embragues Neumáticos –GUMMI siendo 100% intercambiables con los modelos fabricados en dicho país.
     Desde el año 1999, nuestras exportaciones a USA se incrementan exponencialmente tomando como base de comercialización estratégica a Houston, e incorporando a partir de ese momento un sinnúmero de certificaciones que respaldan la performance ya comprobada. A partir de ese momento, comienza una etapa de globalización de los productos GUMMI llegando a destinos impensados tales como Japón, Malasia, Taiwán, Nigeria, Arabia Saudita y Siberia, entre otros.
     Debido al crecimiento de la demanda internacional, en 2003 se adquiere una Planta Industrial  de 5000 M2. Además, en los últimos años se incorporan nuevas tecnologías en maquinarias y se innova en el desarrollo de Acoplamientos Elásticos y Semielásticos de Alto Torque para satisfacer las necesidades que el mercado demanda.
+aboutUs.industries.title: 'Industrias'
+aboutUs.industries.oil: 'Petróleo y Gas / Perforación'
+aboutUs.industries.paper: 'Pulpa y Papel / Producción'
+aboutUs.industries.mineral: 'Minería'
+aboutUs.industries.pm: 'Propulsión marina / de dragado y pesca'
+aboutUs.industries.li: 'Lavadoras comerciales'
+aboutUs.industries.pn: 'Fabricación de neumáticos'
+aboutUs.industries.water: 'Tratamiento de aguas'
+aboutUs.industries.textil: 'Textil'
+aboutUs.industries.metal: 'Metalúrgica'
+aboutUs.industries.general: 'Industria general / Procesos de fabricación'
+aboutUs.industries.power: 'Transmisión de potencia'
+aboutUs.industries.content: 'Entendemos sus necesidades industriales y empresariales. Por encima de todo, estamos dedicados a proveer un servicio orientado a soluciones para optimizar el rendimiento de su equipo.'
+aboutUs.certificates.iso.title: 'Certificado ISO'
+aboutUs.certificates.atex.title: 'Certificado ATEX'

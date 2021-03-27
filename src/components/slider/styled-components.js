@@ -6,6 +6,14 @@ export const SwiperWrapper = styled.div`
         color: white;
     }
 
+    .swiper-button-prev {
+        margin-left: 32px;
+    }
+
+    .swiper-button-next {
+        margin-right: 32px;
+    }
+
     .swiper-pagination {
         .swiper-pagination-bullet-active {
             background: white;

@@ -1,16 +1,42 @@
 import React, { useEffect, useState } from 'react'
+import styled from 'styled-components'
+
 import { injectIntl, intlShape } from 'react-intl'
 import withPageContext from '../pageContext'
 import { Container, Row, Col } from 'react-bootstrap'
 import withLayout from '../layout'
 import { compose } from 'recompose'
-import { TitleH4, Spacer, Text2, Li, Ul, Separator } from '../styles/shared'
+import { default as Industry } from '../images/industry.jpg'
+import { default as Story } from '../images/story_2.jpg'
+import { default as Story3 } from '../images/story_3.jpg'
 
-const serialize = (formFields) => {
-    return Object.entries(formFields).reduce((acc, [key, val], index) => {
-        return `${!!index ? `${acc}&` : acc}${key}=${encodeURIComponent(val)}`
-    }, '')
-}
+import { TitleH4, Spacer, Text2, Li, Ul, Separator } from '../styles/shared'
+import { BREAKPOINTS } from '../styles/constants'
+
+const ImageCrop = styled.div`
+    @media (min-width: ${BREAKPOINTS.xl}) {
+        width: 140%;
+        overflow: hidden;
+        margin: 0;
+
+        img {
+            margin: 0 -28.885%;
+            width: 177.777%;
+        }
+    }
+`
+
+const ImagesWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    @media (max-width: ${BREAKPOINTS.xl}) {
+        ${ImageCrop}:nth-child(2) {
+            display: none;
+        }
+    }
+`
 
 const industries = [
     'oil',
@@ -27,18 +53,23 @@ const industries = [
 ]
 
 const AboutUs = ({ intl }) => {
-    const [formFields, setFormFields] = useState({})
-
-    const handleOnChange = (event) => {
-        const name = event.target.getAttribute('name')
-        setFormFields({ ...formFields, [name]: event.target.value })
-    }
-
     return (
         <Spacer top={6}>
             <Container>
                 <Row>
-                    <Col lg={12}>
+                    <Col xl={5}>
+                        <ImagesWrapper>
+                            <ImageCrop>
+                                <Spacer bottom={2}>
+                                    <img src={Story} />
+                                </Spacer>
+                            </ImageCrop>
+                            <ImageCrop>
+                                <img src={Story3} />
+                            </ImageCrop>
+                        </ImagesWrapper>
+                    </Col>
+                    <Col xl={7}>
                         <Spacer bottom={3}>
                             <TitleH4>
                                 {intl.formatMessage({
@@ -53,31 +84,41 @@ const AboutUs = ({ intl }) => {
                                 id: 'aboutUs.story.content',
                             })}
                         </Text2>
-
-                        <Spacer top={10}>
-                            <Spacer bottom={3}>
-                                <TitleH4>
-                                    {intl.formatMessage({
-                                        id: 'aboutUs.industries.title',
-                                    })}
-                                </TitleH4>
-                                <Separator />
-                            </Spacer>
-                            <Ul>
-                                {industries.map((industryName) => (
-                                    <Li>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Spacer bottom={3}>
+                            <TitleH4>
+                                {intl.formatMessage({
+                                    id: 'aboutUs.industries.title',
+                                })}
+                            </TitleH4>
+                            <Separator />
+                        </Spacer>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={8}>
+                        <Ul>
+                            {industries.map((industryName) => (
+                                <Li>
+                                    <Text2>
                                         {intl.formatMessage({
                                             id: `aboutUs.industries.${industryName}`,
                                         })}
-                                    </Li>
-                                ))}
-                            </Ul>
-                            <Text2>
-                                {intl.formatMessage({
-                                    id: 'aboutUs.industries.content',
-                                })}
-                            </Text2>
-                        </Spacer>
+                                    </Text2>
+                                </Li>
+                            ))}
+                        </Ul>
+                        <Text2>
+                            {intl.formatMessage({
+                                id: 'aboutUs.industries.content',
+                            })}
+                        </Text2>
+                    </Col>
+                    <Col lg={4}>
+                        <img src={Industry} />
                     </Col>
                 </Row>
             </Container>

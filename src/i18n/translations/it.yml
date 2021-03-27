@@ -5,7 +5,7 @@ home.contact.address: >
     Via Cartesio, 36,
     41126, Modena - Italia
 home.contact.phone: >
-    +39 059 346731
+    +39 347 567 1087
 home.contact.email: >
     info@gummiitalia.it
 navbar.contact: 'Contatto'
@@ -21,7 +21,7 @@ footer.address.content: >
     Via Cartesio, 36,
     41126, Modena - Italia
 footer.contact.title: 'Contatto'
-footer.contact.tel: '+39 059 346731'
+footer.contact.tel: '+39 347 567 1087'
 footer.contact.email: 'info@gummiitalia.it'
 product.details.characteristcs: 'Caratteristica'
 product.details.power: 'Coppie'
@@ -42,7 +42,6 @@ products.industrialCouplings.line_a.sizes: >
     Modello da A-20 a A-400. Oltre allo standard,  o con rivestimento sintetico (RE) -per ambienti aggressivi-. I mozzi possono essere: mozzo normale (CN); mozzo integrale (CI); mozzo assiale (CX); mozzo bobina (CC), mozzi incassati (CE)., con disco freno (DF), con puleggia freno (APF) e flangiato (CF).
 products.industrialCouplings.line_a.useCases: >
     Per la loro versatilità vengono utilizzati in diversi settori: siderurgico, cartario, alimentare, petrolifero, petrolifero, navale, minerario, ecc.
-products.industrialCouplings.line_a.catalogueUrl: '../cat/a.pdf'
 products.industrialCouplings.line_an.name: 'Linea AN'
 products.industrialCouplings.line_an.general: >
     Il Giunto pneumatico  GUMMI AN è stato appositamente progettato per proteggere le trasmissioni e le macchine dagli effetti distruttivi delle fluttuazioni di coppia ad alto momento torsionale, associate a macchine a combustione interna, pompe alternative, compressori, mulini ecc.
@@ -99,7 +98,6 @@ products.pneumaticBrake.fk.description: >
 products.pneumaticBrake.fk.power: 'Agiscono in una gamma di momenti torsionali che vanno da 40,7 Nm a 58772 Nm'
 products.pneumaticBrake.fk.sizes: >
     Con un'ampia varietà di misure da 3 "a 45", nelle sue diverse varianti, che possono essere semplici, duali, due sezioni , con 1 connessione o più connessioni a seconda delle esigenze dell'applicazione
-    Per la loro versatilità vengono utilizzati in diversi settori: siderurgico, cartario, alimentare, petrolifero, petrolifero, navale, minerario, ecc.
 products.pneumaticBrake.fke.name: 'FKE'
 products.pneumaticBrake.fke.general: >
     Le frizioni e freni GUMMI FKE sono adatti per applicazioni a bassa velocità, avviamenti e arresti morbidi, frizioni antiscivolo e freni a tenditore con bassa dissipazione del calore.
@@ -129,22 +127,6 @@ products.pneumaticBrake.fkt.sizes: >
     Con un'ampia varietà di misure da 11,5 "a 66", nelle sue diverse varianti, che possono essere semplici, dual, con 1 connessione o connessioni multiple a seconda delle esigenze dell'applicazione.
 products.pneumaticBrake.fkt.useCases: >
     Gli pneumatici GUMMI FKTt sono ampiamente utilizzati nell'industria petrolifera, mineraria e navale.
-products.pneumaticBrake.fm.name: 'Spiroflex'
-products.pneumaticBrake.fm.general: >
-    Gli elementi elastici GUMMI Spiroflex hanno un'elevata elasticità torsionale. Compensano i disallineamenti radiali, assiali e angolari degli alberi.
-products.pneumaticBrake.fm.description: >
-products.pneumaticBrake.fm.power:
-products.pneumaticBrake.fm.sizes: >
-    EJ 100 A EJ 530
-products.pneumaticBrake.fm.useCases: >
-    Sono utilizzati in applicazioni marine tra motore e cambio, generatori, ecc. È altamente raccomandato nei sistemi di propulsione.
-products.pneumaticBrake.rn.name: 'TLB'
-products.pneumaticBrake.rn.general: >
-    Il montaggio con  bussole - Taper lock consente un'installazione semplice, veloce ed efficiente, utilizzando bussole coniche standard che evitano la lavorazione meccanica dei mozzi, e quindi  già predisposti per l'alloggiamento.
-products.pneumaticBrake.rn.description: >
-products.pneumaticBrake.rn.power:
-products.pneumaticBrake.rn.sizes: >
-products.pneumaticBrake.rn.useCases: >
 products.pneumaticCameras: 'Camere Pneumatiche'
 products.pneumaticCameras.cn.name: 'Camere pneumatiche'
 products.pneumaticCameras.cn.general: >
@@ -157,10 +139,11 @@ products.pneumaticCameras.cn.useCases: >
     Camere: frizioni pneumatiche circonferenziali ventilate di tipo americano ed europeo. Frizioni pneumatiche anteriori (disco) di tipo americano ed europeo. Applicazioni speciali.
     Diaframmi: frizioni pneumatiche per tipo DX.
 contact.title: 'Inviaci un messaggio'
-contact.form.fullName: 'nome completo'
-contact.form.email: 'e-mail'
-contact.form.subject: 'soggetto'
-contact.form.message: 'messaggio'
+contact.form.fullName: 'Nome completo'
+contact.form.email: 'E-mail'
+contact.form.subject: 'Soggetto'
+contact.form.message: 'Messaggio'
+contact.form.cta: 'Invia messaggio'
 aboutUs.story.title: 'La storia'
 aboutUs.story.content: >
     La azienda inizia la attività nel 1955 con lavori conto terzi per una ditta di macchine utensili. Nel 1962 comincia a fabbricare riduttore e L\u0027azienda nasce nel 1955, con lavori in serie per un\u0027importante fabbrica di macchine utensili. Nel 1962 inizia la produzione di riduttori e penetra fortemente nel mercato della gomma producendo guarnizioni e membrane per l\u0027Industria in generale.
@@ -183,3 +166,5 @@ aboutUs.industries.metal: 'Metallurgia'
 aboutUs.industries.general: 'Industria generale / Processi de fabbricazione'
 aboutUs.industries.power: 'Trasmissione de potenza generale'
 aboutUs.industries.content: 'Sappiamo delle vostre necessità industriali e aziendali. Siamo quindi pronti a fornire un servizio indirizzato a soluzioni per ottimizzare il rendimento del macchinario.'
+aboutUs.certificates.iso.title: 'Certificato ISO'
+aboutUs.certificates.atex.title: 'Certificato ATEX'
