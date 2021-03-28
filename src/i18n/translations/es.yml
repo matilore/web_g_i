@@ -86,7 +86,7 @@ products.industrialCouplings.tlb.description: >
 products.industrialCouplings.tlb.power:
 products.industrialCouplings.tlb.sizes: >
 products.industrialCouplings.tlb.useCases: >
-products.pneumaticBrake: 'Frizioni e Freni'
+products.pneumaticBrake: 'Embragues y Frenos'
 products.pneumaticBrake.fk.name: 'FK'
 products.pneumaticBrake.fk.general: >
     La llanta GUMMI FK está diseñada y construida para brindar un confiable servicio de embrague y freno en las más exigentes aplicaciones industriales.
@@ -138,7 +138,7 @@ products.pneumaticCameras.cn.useCases: >
 contact.title: 'Invianos un mensaje'
 contact.form.fullName: 'Nombre completo'
 contact.form.email: 'E-mail'
-contact.form.subject: 'Sujeto'
+contact.form.subject: 'Asunto'
 contact.form.message: 'Mensaje'
 contact.form.cta: 'Invia mensaje'
 aboutUs.story.title: 'Nuestra historia'
