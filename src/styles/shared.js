@@ -64,6 +64,11 @@ export const ProductCard = styled.div`
         transform: scale(1.04);
     }
 
+    h5 {
+        width: 100%;
+        margin: 0;
+    }
+
     @media (max-width: ${BREAKPOINTS.md}) {
         padding: 8px;
         width: 100%;
@@ -73,9 +78,10 @@ export const ProductCard = styled.div`
         }
     }
 
-    h5 {
-        width: 100%;
-        margin: 0;
+    @media (max-width: ${BREAKPOINTS.sm}) {
+        h5 {
+            font-size: 0.95rem;
+        }
     }
 `
 
@@ -122,7 +128,8 @@ export const Li = styled.li`
 
 export const Separator = styled.div`
     border-bottom: 2px solid black;
-    width: 450px;
+    width: 35%;
+    min-width: 288px;
 `
 
 export const ImageWrapper = styled.div`
