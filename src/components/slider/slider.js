@@ -35,8 +35,6 @@ export default () => {
                 spaceBetween={50}
                 loop
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
             >
                 {renderSlides()}
             </Swiper>

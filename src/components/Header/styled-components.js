@@ -19,7 +19,7 @@ export const NavDropdown = styled(BootstrapNav)`
 
 export const Navbar = styled(BootstrapNavbar)`
     && {
-        height: 64px;
+        padding: 16px;
     }
 `
 

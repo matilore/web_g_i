@@ -48,11 +48,12 @@ export const FooterWrapper = styled.footer`
     }
 
     @media (max-width: ${BREAKPOINTS.md}) {
-        padding: 8px 8px;
+        padding: 16px 8px;
     }
 
     @media (max-width: ${BREAKPOINTS.sm}) {
         height: auto;
+        padding-bottom: 24px;
         h6 {
             margin-top: 16px;
         }

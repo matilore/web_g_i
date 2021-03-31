@@ -66,27 +66,24 @@ export const ProductCard = styled.div`
 
     @media (max-width: ${BREAKPOINTS.md}) {
         padding: 8px;
+        width: 100%;
+
+        ${GatbsyLink} {
+            width: 65%;
+        }
     }
 
     h5 {
-        padding-bottom: 8px;
-        border-bottom: 2px solid darkGrey;
         width: 100%;
-
-        @media (max-width: 768px) {
-            font-size: 0.8rem;
-        }
-
-        @media (max-width: 992px) {
-            font-size: 0.9rem;
-        }
+        margin: 0;
     }
 `
 
 export const ProductContent = styled.div`
-    height: 60px;
+    height: 40px;
     margin-bottom: 16px;
     text-align: center;
+    border-bottom: 2px solid darkGrey;
 `
 
 export const Icon = styled.svg`
@@ -131,4 +128,8 @@ export const Separator = styled.div`
 export const ImageWrapper = styled.div`
     width: 90%;
     height: 90%;
+
+    img {
+        max-width: 100%;
+    }
 `

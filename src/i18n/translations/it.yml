@@ -29,7 +29,7 @@ product.details.sizes: 'Dimensioni'
 product.details.useCases: 'Applicazioni'
 product.details.download.catalogue: 'Apri catalogo'
 products.title: 'Prodotti'
-products.industrialCouplings: 'Giunti'
+products.industrialCouplings: 'Giunti elastici'
 products.industrialCouplings.line_a.name: 'Linea A'
 products.industrialCouplings.line_a.general: >
     I giunti elastici GUMMI tipo A assorbono disallineamenti e vibrazioni. Il disallineamento rappresenta il 50% delle cause di rottura dei cuscinetti, così come altri elementi delle macchine (tenute, ingranaggi), che non sono predisposti per la flessione sollecitata sull'albero. Il giunto GUMMI, essendo elastico, assorbe i disallineamenti, aumentando la vita utile dei componenti.
