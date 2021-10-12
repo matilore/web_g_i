@@ -76,7 +76,7 @@ products.industrialCouplings.spiroflex.general: >
 products.industrialCouplings.spiroflex.description: >
 products.industrialCouplings.spiroflex.power:
 products.industrialCouplings.spiroflex.sizes: >
-    EJ 100 A EJ 530
+    EJ 130 A EJ 240
 products.industrialCouplings.spiroflex.useCases: >
     Son utilizados en aplicaciones marinas ente motor y caja de cambios, generadores, etc. Es altamente recomendado en sistemas de propulsión.
 products.industrialCouplings.tlb.name: 'TLB'
